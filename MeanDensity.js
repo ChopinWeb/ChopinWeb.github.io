@@ -95,14 +95,9 @@ const Calclator = {
 		
 		CourseDic = {"Edit":["EDIT", "4"], "Oni":["ONI", "3"], "Hard":["HARD", "2"], "Normal":["NORMAL", "1"], "Easy":["EASY", "0"]};
 		SelectedCourse = CourseDic[this.course].concat([this.course]); //指定の難易度に該当する配列を作成
-		//console.log(this.course, ":", SelectedCourse);
 		
 		for (let i=0; i<this.ScoreArray.length; i++){
 			if (this.ScoreArray[i].includes("//")) this.ScoreArray[i] = this.ScoreArray[i].split("//")[0]; //前処理（コメント消去）
-			/*console.log(i, ":", this.ScoreArray[i]);
-			console.log("A: ", flg, BPM, BeatNum);
-			console.log(RowInfo);
-			console.log(MeasureInfo.slice(MeasureInfo.length-5, MeasureInfo.length))*/
 			
 			//指定の難易度の"#START"が現れるまでスキップ
 			if (flg <= 1){
@@ -135,9 +130,6 @@ const Calclator = {
 					RowBPM:BPM
 				})
 			}
-			/*console.log("B: ", flg, BPM, BeatNum);
-			console.log(RowInfo);
-			console.log(MeasureInfo.slice(MeasureInfo.length-5, MeasureInfo.length))*/
 
 			//終了タイミングに関する判定（flg>=5の時は重複走査なので除外）
 			if (flg <= 4){
@@ -196,9 +188,6 @@ const Calclator = {
 				RowInfo = [];
 				if (flg >= 5) break; //処理を終了
 			}
-			/*console.log("C: ", flg, BPM, BeatNum);
-			console.log(RowInfo);
-			console.log(MeasureInfo.slice(MeasureInfo.length-5, MeasureInfo.length))*/
 		}
 		
 		//平均密度の計算
@@ -216,10 +205,15 @@ const Calclator = {
 	
 	//表示結果の中身を返す
 	getResultValue: function(){
-		if (this.ErrorCode.length == 0) return "平均密度は" + (Math.round(1000 * this.combo/this.second) / 1000).toString() + "打/秒です。"; //エラーがない場合
+		let ResultValue = "";	
+		if (this.ErrorCode.length == 0){ //エラーがない場合
+			ResultValue += "コンボ数は" + (this.combo).toString() + "です。\n";
+			ResultValue += "秒数は" + (Math.round(1000 * this.second) / 1000).toString() + "秒です。\n"
+			ResultValue += "平均密度は" + (Math.round(1000 * this.combo/this.second) / 1000).toString() + "打/秒です。";
+			return ResultValue;
+		}
 		
 		else{ //エラーがある場合
-			let ResultValue = "";	
 			let ErrorValue = {
 				1: "ファイルを読み取ることができませんでした。", 
 				2: "TJAコードがありません。",
@@ -264,17 +258,7 @@ function showResult(){
 	Calclator.readTextBox(); //テキストボックスの情報を取得
 	Calclator.calclateMeanDensity(); //平均密度を計算	
 	result.innerText = Calclator.getResultValue(); //結果を表示
-	//console.log(s[0], s[1], s[0].includes(s[1]));
-	//console.log(Calclator.MeanDensity);
-	//console.log(Calclator.ScoreArray);
-	//result.innerText = course.value + "," + StartMeasureElement.value + "," + EndMeasureElement.value;
 	Calclator.resetCalclator();
-}
-
-//テスト
-function testFunc(){
-	CourseElement.options[1].selected = true;
-	StartMeasureElement.value = "r5";
 }
 
 //値を取得
@@ -286,6 +270,5 @@ let EndMeasureElement = document.getElementById("EndMeasure");
 let result = document.getElementById("result");
 let calcButton = document.getElementById("calcButton");
 
-window.addEventListener("load", testFunc);
 TJAFile.addEventListener("change", readFile); //ファイルを読み込み（Calclator.ScoreArrayにも内容が格納）
 calcButton.addEventListener("click", showResult); //計算結果を表示
