@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ChopinWeb - 平均密度計算機</title>
+  </head>
+  
+  <body>
+	<font size="4" color="red">計算対象</font><br>
+	<p>「ファイル」の項目でファイルを選択するか、「TJAコード」の項目にTJAファイルの内容をコピペしてください。（どちらも入力されている場合は「ファイル」の項目の内容が優先されます。</p>
+	<label>ファイル　：<input type="file" accept=".tja" id="TJAFile"></label><br>
+	<label>TJAコード：<textarea cols="40" row="5" id="TJATextarea"></textarea></label><br><br>
+	
+	<font size="4" color="red">計算エリア</font><br>
+	<p>入力したファイル・TJAコードのどのエリアの平均密度を計算するか入力してください。</p>
+	<label>難易度　　：
+	<select id="course">
+	  <option value="Unselect">未選択</option>
+	  <option value="Edit">裏譜面</option>
+	  <option value="Oni">おに</option>
+	  <option value="Hard">むずかしい</option>
+	  <option value="Normal">ふつう</option>
+	  <option value="Easy">かんたん</option>
+	</select></label><br>
+    <label>区間　　　：<input type="text" size="10" id="StartMeasure" value="最初"></label>から<input type="text" size="10" id="EndMeasure" value="最後">まで</label><br><br>
+	
+　　  <input type="button" value="計算する" id="calcButton">
+    <p id="result"></p>
+    <script src="MeanDensity.js"></script>
+  </body>
+</html>
