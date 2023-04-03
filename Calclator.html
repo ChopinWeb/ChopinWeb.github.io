@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>ChopinWeb｜平均密度計算機</title>
+  </head>
+  
+  <body>
+    <header class="header_fixed">
+      <a href="./index.html"><img src="./img/home.png" alt="ホーム" title="ホーム" style="width:80px;" class="header_img"></a>
+      <nav>
+        <ul>
+          <li><a href="./Calclator.html">平均密度計算機</a></li>
+          <li><a href="./ScoreDatabase.html">創作譜面保管庫</a></li>
+          <li><a href="./DanniDatabase.html">創作段位保管庫</a></li>
+          <li><a href="./Contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="page_title">平均密度計算機</div>
+	  <div class="mini_title">計算対象</div>
+	  <p>「ファイル」の項目でファイルを選択するか、「TJAコード」の項目にTJAファイルの内容をコピペしてください。（どちらも入力されている場合は「ファイル」の項目の内容が優先されます。</p>
+	  <label>ファイル　：<input type="file" accept=".tja" id="TJAFile"></label><br>
+	  <label>TJAコード：<textarea cols="40" row="5" id="TJATextarea"></textarea></label><br><br>
+	
+	  <div class="mini_title">計算エリア</div>
+	  <p>入力したファイル・TJAコードのどのエリアの平均密度を計算するか入力してください。</p>
+	  <label>難易度　　：
+	  <select id="course">
+	    <option value="Unselect">未選択</option>
+	    <option value="Edit">裏譜面</option>
+	    <option value="Oni">おに</option>
+	    <option value="Hard">むずかしい</option>
+	    <option value="Normal">ふつう</option>
+	    <option value="Easy">かんたん</option>
+	  </select></label><br>
+      <label>区間　　　：<input type="text" size="10" id="StartMeasure" value="最初"></label>小節目から<input type="text" size="10" id="EndMeasure" value="最後">小節目まで</label><br><br><br>
+	
+      <input type="button" align="center" value="計算する" id="calcButton" class="calcButton"><br><br>
+     
+      <div class="mini_title">計算結果</div>
+      <p id="result"></p>
+      <script src="./js/Calclator.js"></script>
+    </main>
+  </body>
+</html>
