@@ -1,0 +1,96 @@
+body {
+     font-family: sans-serif;
+     margin: 0;
+     /*background-image: url("background.jpg");*/
+}
+
+main {
+    padding: 20px;
+    line-height: 2;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  åjustify-content: space-between;
+}
+
+.main-contents {
+  width: 75%;
+  border-right: 2px solid #d1dce5;
+}
+
+.side-menu {
+  margin-left: 10px;
+  width: 20%;
+}
+
+/* ヘッダー */
+.header_fixed {
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 60px; 
+    width: 100%;
+    color: black;
+    background: white;
+    border-bottom: 1px solid #d1dce5;
+    z-index: 999;
+}
+
+.header_img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header_fixed nav {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.header_fixed ul {
+    display: flex;
+    list-style: none;
+}
+
+.header_fixed ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.header_fixed a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ページタイトル*/
+.page_title {
+    font-size: xx-large;
+    background-color: #dcdcdc;
+}
+
+/* 段落タイトル */
+.paragraph_title {
+    font-size: x-large;
+    border-left: thick solid #dcdcdc;
+    border-bottom: thick solid #dcdcdc;
+    margin: 10px;
+}
+
+/* ミニタイトル */
+.mini_title {
+    font-size: x-large;
+    border-bottom: medium solid #c0c0c0;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 計算ボタン */
+.calcButton {
+    font-size: x-large;
+    line-height: 30px;
+    background-color: #87cefa;
+}
