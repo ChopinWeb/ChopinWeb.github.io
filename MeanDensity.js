@@ -209,7 +209,7 @@ const Calclator = {
 		if (this.ErrorCode.length == 0){ //エラーがない場合
 			ResultValue += "コンボ数は" + (this.combo).toString() + "です。\n";
 			ResultValue += "秒数は" + (Math.round(1000 * this.second) / 1000).toString() + "秒です。\n"
-			ResultValue += "平均密度は" + (Math.round(1000 * this.combo/this.second) / 1000).toString() + "打/秒です。";
+			ResultValue += "平均密度は" + (Math.round(1000 * (this.combo-1) / this.second) / 1000).toString() + "打/秒です。";
 			return ResultValue;
 		}
 		
@@ -269,6 +269,8 @@ let StartMeasureElement = document.getElementById("StartMeasure");
 let EndMeasureElement = document.getElementById("EndMeasure");
 let result = document.getElementById("result");
 let calcButton = document.getElementById("calcButton");
+
+let TJATextarea.value = "";
 
 TJAFile.addEventListener("change", readFile); //ファイルを読み込み（Calclator.ScoreArrayにも内容が格納）
 calcButton.addEventListener("click", showResult); //計算結果を表示
