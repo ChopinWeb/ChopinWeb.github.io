@@ -270,7 +270,5 @@ let EndMeasureElement = document.getElementById("EndMeasure");
 let result = document.getElementById("result");
 let calcButton = document.getElementById("calcButton");
 
-let TJATextarea.value = "";
-
 TJAFile.addEventListener("change", readFile); //ファイルを読み込み（Calclator.ScoreArrayにも内容が格納）
 calcButton.addEventListener("click", showResult); //計算結果を表示
