@@ -2,29 +2,67 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>ChopinWeb</title>
   </head>
-  
+
   <body>
-    <header class="header_fixed">
-      <a href="./index.html"><img src="./img/home.png" alt="ホーム" title="ホーム" style="width:80px;" class="header_img"></a>
-      <nav>
-        <ul>
-          <li><a href="./Calclator.html">平均密度計算機</a></li>
-          <li><a href="./ScoreDatabase.html">創作譜面保管庫</a></li>
-          <li><a href="./DanniDatabase.html">創作段位保管庫</a></li>
-          <li><a href="./Contact.html">お問い合わせ</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <div class="page_title">FrontPage</div>
-	  <p>ChopinWebへようこそ！</p>
-	  <div class="paragraph_title">このサイトは？</div>
-	  <p>主にYouTubeで活動を行なっている<a href="https://www.youtube.com/channel/UCh29MRokdOO3FG9ymNcfCVQ">チョッピン</a>が提供している様々なコンテンツを一つにまとめたサイトです。様々と言いつつ現在は平均密度計算機しか提供できておりませんが、今後アップデート予定です。（見栄えに関しても随時改善予定です。 ）</p>
-	  <p>本ページは、<a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a>を利用して実装しています。当機能の仕様上、動的な操作は受け付けておりません。そのため、ダウンロード数の多い譜面の表示や会員登録等の機能は実装できません。ご了承ください。</p>
-	</main>
+    <div class="container">
+      <header class="header_fixed">
+        <a href="./index.html"><img src="./img/home.png" alt="ホーム" title="ホーム" style="width:80px;" class="header_img"></a>
+        <nav>
+          <ul>
+            <li><a href="./Calclator.html">平均密度計算機</a></li>
+            <li><a href="./ScoreDatabase.html">創作譜面保管庫</a></li>
+            <li><a href="./DanniDatabase.html">創作段位保管庫</a></li>
+            <li><a href="./Contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main>
+        <div class="page_title">FrontPage</div>
+	    <p>ChopinWebへようこそ！</p>
+	    
+	    <div class="paragraph_title">このサイトは？</div>
+	    <p>主にYouTubeで活動を行なっている<a href="https://www.youtube.com/channel/UCh29MRokdOO3FG9ymNcfCVQ">チョッピン</a>が提供している様々なコンテンツを一つにまとめたサイトです。様々と言いつつ現在は平均密度計算機しか提供できておりませんが、他の機能も提供できるよう今後アップデート予定です。（見栄えに関しても随時改善予定です。 ）</p>
+	    <p>本ページは、<a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a>を利用して実装しています。当機能の仕様上、動的な操作は受け付けておりません。そのため、ダウンロード数の多い譜面の表示や会員登録等の機能は実装できません。ご了承ください。</p>
+	    
+	    <div class="paragraph_title">平均密度計算機</div>
+	    <p>その名の通り、譜面の平均密度を計算してくれるページです。</p>
+	    <p>譜面の中身は、TJAファイルそのものをアップロードするか、ファイルの中身のコードをコピペすることによって入力します。後者はスマホをご使用の方も快適に使えるよう設けた入力欄です。</p>
+	    <p>計算エリアは、難易度と計算区間を入力します。区間の欄は、"最初"（開始小節のみ）、"最後"（終了小節のみ）、整数の入力を受け付けています。</p>
+	    
+	    <div class="paragraph_title">創作譜面保管庫、創作段位保管庫</div>
+	    <p>※現在は未実装です。</p>
+	    <p>今までGoogleドライブで提供していたコンテンツをここで配布しようというものです。</p>
+	    <p>GitHub上にはメモリ制限がありコンテンツそのものを全て置くことができないため、別のドライブサイト・アップローダサイトにファイルを置き、リンクを介して繋ぐといった機能のページを実装予定です。「それだとドライブのままでいいじゃん」ってなりそうですが、譜面画像や段位の概要を画像にしたものを添付することによって、より太鼓さん次郎のコンテンツの配布サイトとして特化させたものを作ろうと考えています。</p>
+	    
+	    <div class="paragraph_title">お問い合わせ</div>
+	    <p>何かバグが発生したり、このサイトに関して改善案等があったりする方は、ページ記載の連絡先までお伝えください。</p>
+	  </main>
+  
+      <footer class="footer_container">
+	    <nav>
+	      <div class="footer_sns">
+	        <a href="https://twitter.com/chopin_taiko" target="_blank" rel="noopener noreferrer"><img src="./img/twitter.png" alt="Twitter" title="Twitter" class="footer_img"></a>
+	        <a href="https://www.youtube.com/channel/UCh29MRokdOO3FG9ymNcfCVQ" target="_blank" rel="noopener noreferrer"><img src="./img/youtube.png" alt="YouTube" title="YouTube" class="footer_img"></a>
+	      </div>
+	      <div class="footer_content">
+	        <ul>
+              <li><a href="./Calclator.html">ホーム</a></li>
+              <li><a href="./Calclator.html">平均密度計算機</a></li>
+            </ul>
+            <ul>
+              <li><a href="./ScoreDatabase.html">創作譜面保管庫</a></li>
+              <li><a href="./DanniDatabase.html">創作段位保管庫</a></li>
+              <li><a href="./Contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+	    </nav>
+      </footer>
+    </div>
   </body>
 </html>
