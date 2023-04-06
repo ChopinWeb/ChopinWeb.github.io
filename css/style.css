@@ -1,29 +1,21 @@
+html, body {
+/*     height: 100%; */
+}
+
 body {
-     font-family: sans-serif;
-     margin: 0;
-     /*background-image: url("background.jpg");*/
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
     padding: 20px;
     line-height: 2;
-}
-
-.container {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  åjustify-content: space-between;
-}
-
-.main-contents {
-  width: 75%;
-  border-right: 2px solid #d1dce5;
-}
-
-.side-menu {
-  margin-left: 10px;
-  width: 20%;
 }
 
 /* ヘッダー */
@@ -34,8 +26,8 @@ main {
     left: 0;
     height: 60px; 
     width: 100%;
-    color: black;
     background: white;
+    color: black;
     border-bottom: 1px solid #d1dce5;
     z-index: 999;
 }
@@ -43,6 +35,7 @@ main {
 .header_img {
     margin-left: 10px;
     margin-top: 10px;
+    width: 80px;
 }
 
 .header_fixed nav {
@@ -53,16 +46,72 @@ main {
 .header_fixed ul {
     display: flex;
     list-style: none;
+    vertical-align: middle;
 }
 
 .header_fixed ul li {
     margin-left: 20px;
     margin-right: 20px;
-    vertical-align: middle;
 }
 
 .header_fixed a {
     color: black;
+    text-decoration: none;
+}
+
+/* フッター */
+.footer_container {
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    height: 100px;
+    background: #404040;
+}
+
+.footer_container nav {
+    display: flex;
+    width: 750px;
+    margin: auto;
+/*     background: black; */
+}
+
+.footer_sns {
+    float: left;
+    width: 25%;
+    height: 60px;
+/*     background: blue; */
+    text-align: center;
+    margin: auto;
+    border-right: 2px solid white;
+}
+
+.footer_img {
+    height: 40px;
+    padding: 10px;
+}
+
+.footer_content {
+    float: right;
+    width: 74%;
+/*     background: skyblue; */
+}
+
+.footer_content ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+/*     margin: auto; */
+}
+
+.footer_content ul li {
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer_container a {
+    color: white;
     text-decoration: none;
 }
 
@@ -93,4 +142,11 @@ main {
     font-size: x-large;
     line-height: 30px;
     background-color: #87cefa;
+}
+
+/* 結果表示ボックス */
+.result_box {
+    width: 100%;
+    height: 16em;
+    background-color: white;
 }
