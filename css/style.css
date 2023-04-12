@@ -74,6 +74,46 @@ main {
         height: 50px;
     }
     
+    .nav_container {
+        position: fixed;
+        z-index: 999;
+        top: -120%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #999;
+        transition: all 0.6s;
+    }
+
+    .nav_container.panelactive {
+        top: 0;
+    }
+
+    .nav_container ul {
+        padding-left: 0;
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .nav_container li {
+        list-style: none;
+        text-align: center;
+    }
+
+    .nav_container li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+    }
+}
+
     /* ヘッダー中のメニューボタン */
     .menubtn span {
         display: inline-block;
@@ -115,45 +155,6 @@ main {
         transform: translateY(-6px) rotate(45deg);
         width: 30%;
     }
-
-    .nav_container {
-        position: fixed;
-        z-index: 999;
-        top: -120%;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: #999;
-        transition: all 0.6s;
-    }
-
-    .nav_container.panelactive{
-        top: 0;
-    }
-
-    .nav_container ul {
-        position: absolute;
-        z-index: 999;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .nav_container li{
-        list-style: none;
-        text-align: center; 
-    }
-
-    .nav_container li a{
-        color: #333;
-        text-decoration: none;
-        padding:10px;
-        display: block;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        font-weight: bold;
-    }
-}
 
 
 /* フッター */
