@@ -160,12 +160,10 @@ main {
 .footer_container nav {
     display: flex;
     margin: auto;
-/*     background: black; */
 }
 
 .footer_sns {
     height: 60px;
-/*     background: blue; */
     text-align: center;
     margin: auto;
 }
@@ -178,6 +176,7 @@ main {
     list-style: none;
     justify-content: center;
     text-align: center;
+    padding-left: 0;
 }
 
 .footer_content ul li {
@@ -211,12 +210,10 @@ main {
 
     .footer_content {
         width: 74%;
-/*         background: skyblue; */
     }
 
     .footer_content ul {
         display: flex;
-        padding-left: 0px;
     }
 }
 
@@ -239,13 +236,13 @@ main {
     }
 
     .footer_content {
-        width: 100%;
+        margin: auto;
+        width: 90%;
         height: 140px;
-/*         background: skyblue; */
     }
     
     .footer_content ul {
-        width: 40%
+        width: 49%
     }
     
     .footer_content ul:nth-of-type(2n+1){
