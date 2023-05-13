@@ -50,7 +50,7 @@ function showContents(){
 
 	//JSONデータ読み込み
 	//let requestURL = "./json/Database_folder.json"; //jsonへのパス
-	let requestURL = "https://chopinweb.github.io/json/Database_folder.json"; //jsonへのパス
+	let requestURL = "https://chopinweb.github.io/json/Database.json"; //jsonへのパス
 	//let requestURL = "https://chopinweb.github.io/json/test.json"; //jsonへのパス
 	let request = new XMLHttpRequest();
 	request.open('GET', requestURL);
