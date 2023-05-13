@@ -1,194 +1,213 @@
-[
-    {
-        "ID": 0,
-        "name": "Front",
-        "parent_folder": [],
-        "child_folder": [1,2,3]
-    },
-    {
-        "ID": 1,
-        "name": "創作譜面",
-        "parent_folder": [0],
-        "child_folder": [4,5,6,7,8,9,10,11,12,13]
-    },
-    {
-        "ID": 2,
-        "name": "創作段位",
-        "parent_folder": [0],
-        "child_folder": [14,15,20,23,24,27,29,30,31]
-    },
-    {
-        "ID": 3,
-        "name": "便利ツール",
-        "parent_folder": [0],
-        "child_folder": []
-    },
-    {
-        "ID": 4,
-        "name": "星8クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 5,
-        "name": "星9クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 6,
-        "name": "星10弱クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 7,
-        "name": "星10中クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 8,
-        "name": "星10強クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 9,
-        "name": "星10難関クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 10,
-        "name": "星10最難関クラス",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 11,
-        "name": "ネタ譜面",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 12,
-        "name": "半創作譜面",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 13,
-        "name": "むずかしい譜面",
-        "parent_folder": [0,1],
-        "child_folder": []
-    },
-    {
-        "ID": 14,
-        "name": "創作外伝",
-        "parent_folder": [0,2],
-        "child_folder": []
-    },
-    {
-        "ID": 15,
-        "name": "創作譜面段位",
-        "parent_folder": [0,2],
-        "child_folder": [16,17,18,19]
-    },
-    {
-        "ID": 16,
-        "name": "アメジストver.",
-        "parent_folder": [0,2,15],
-        "child_folder": []
-    },
-    {
-        "ID": 17,
-        "name": "シルバーver.",
-        "parent_folder": [0,2,15],
-        "child_folder": []
-    },
-    {
-        "ID": 18,
-        "name": "ルビーver.",
-        "parent_folder": [0,2,15],
-        "child_folder": []
-    },
-    {
-        "ID": 19,
-        "name": "トパーズver.",
-        "parent_folder": [0,2,15],
-        "child_folder": []
-    },
-    {
-        "ID": 20,
-        "name": "裏人段位",
-        "parent_folder": [0,2],
-        "child_folder": [21,22]
-    },
-    {
-        "ID": 21,
-        "name": "ニジイロ段位道場2020_裏人段位",
-        "parent_folder": [0,2,20],
-        "child_folder": []
-    },
-    {
-        "ID": 22,
-        "name": "ニジイロ段位道場2021_裏人段位",
-        "parent_folder": [0,2,20],
-        "child_folder": []
-    },
-    {
-        "ID": 23,
-        "name": "超詐称譜面段位",
-        "parent_folder": [0,2],
-        "child_folder": []
-    },
-    {
-        "ID": 24,
-        "name": "AC非収録曲段位",
-        "parent_folder": [0,2],
-        "child_folder": [25,26]
-    },
-    {
-        "ID": 25,
-        "name": "AC非収録曲段位_ver.1",
-        "parent_folder": [0,2,24],
-        "child_folder": []
-    },
-    {
-        "ID": 26,
-        "name": "AC非収録曲段位_ver.2",
-        "parent_folder": [0,2,24],
-        "child_folder": []
-    },
-    {
-        "ID": 27,
-        "name": "みんなで作る段位！",
-        "parent_folder": [0,2],
-        "child_folder": [28]
-    },
-    {
-        "ID": 28,
-        "name": "みんなで作る段位！_ver.1",
-        "parent_folder": [0,2,27],
-        "child_folder": []
-    },
-    {
-        "ID": 29,
-        "name": "ボカロ段位",
-        "parent_folder": [0,2],
-        "child_folder": []
-    },
-    {
-        "ID": 30,
-        "name": "むずかしい譜面段位",
-        "parent_folder": [0,2],
-        "child_folder": []
-    },
-    {
-        "ID": 31,
-        "name": "裏譜面段位",
-        "parent_folder": [0,2],
-        "child_folder": []
+{
+    "content": [
+        {
+            "ID": 0,
+            "name": "Front",
+            "parent_folder": [],
+            "child_folder": [1,2,3]
+        },
+        {
+            "ID": 1,
+            "name": "創作譜面",
+            "parent_folder": [0],
+            "child_folder": [4,5,6,7,8,9,10,11,12,13]
+        },
+        {
+            "ID": 2,
+            "name": "創作段位",
+            "parent_folder": [0],
+            "child_folder": [14,15,20,23,24,27,29,30,31]
+        },
+        {
+            "ID": 3,
+            "name": "便利ツール",
+            "parent_folder": [0],
+            "child_folder": [32,33]
+        },
+        {
+            "ID": 4,
+            "name": "星8クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 5,
+            "name": "星9クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 6,
+            "name": "星10弱クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 7,
+            "name": "星10中クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 8,
+            "name": "星10強クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 9,
+            "name": "星10難関クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 10,
+            "name": "星10最難関クラス",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 11,
+            "name": "ネタ譜面",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 12,
+            "name": "半創作譜面",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 13,
+            "name": "むずかしい譜面",
+            "parent_folder": [0,1],
+            "child_folder": []
+        },
+        {
+            "ID": 14,
+            "name": "創作外伝",
+            "parent_folder": [0,2],
+            "child_folder": []
+        },
+        {
+            "ID": 15,
+            "name": "創作譜面段位",
+            "parent_folder": [0,2],
+            "child_folder": [16,17,18,19]
+        },
+        {
+            "ID": 16,
+            "name": "アメジストver.",
+            "parent_folder": [0,2,15],
+            "child_folder": []
+        },
+        {
+            "ID": 17,
+            "name": "シルバーver.",
+            "parent_folder": [0,2,15],
+            "child_folder": []
+        },
+        {
+            "ID": 18,
+            "name": "ルビーver.",
+            "parent_folder": [0,2,15],
+            "child_folder": []
+        },
+        {
+            "ID": 19,
+            "name": "トパーズver.",
+            "parent_folder": [0,2,15],
+            "child_folder": []
+        },
+        {
+            "ID": 20,
+            "name": "裏人段位",
+            "parent_folder": [0,2],
+            "child_folder": [21,22]
+        },
+        {
+            "ID": 21,
+            "name": "ニジイロ段位道場2020_裏人段位",
+            "parent_folder": [0,2,20],
+            "child_folder": []
+        },
+        {
+            "ID": 22,
+            "name": "ニジイロ段位道場2021_裏人段位",
+            "parent_folder": [0,2,20],
+            "child_folder": []
+        },
+        {
+            "ID": 23,
+            "name": "超詐称譜面段位",
+            "parent_folder": [0,2],
+            "child_folder": []
+        },
+        {
+            "ID": 24,
+            "name": "AC非収録曲段位",
+            "parent_folder": [0,2],
+            "child_folder": [25,26]
+        },
+        {
+            "ID": 25,
+            "name": "AC非収録曲段位_ver.1",
+            "parent_folder": [0,2,24],
+            "child_folder": []
+        },
+        {
+            "ID": 26,
+            "name": "AC非収録曲段位_ver.2",
+            "parent_folder": [0,2,24],
+            "child_folder": []
+        },
+        {
+            "ID": 27,
+            "name": "みんなで作る段位！",
+            "parent_folder": [0,2],
+            "child_folder": [28]
+        },
+        {
+            "ID": 28,
+            "name": "みんなで作る段位！_ver.1",
+            "parent_folder": [0,2,27],
+            "child_folder": []
+        },
+        {
+            "ID": 29,
+            "name": "ボカロ段位",
+            "parent_folder": [0,2],
+            "child_folder": []
+        },
+        {
+            "ID": 30,
+            "name": "むずかしい譜面段位",
+            "parent_folder": [0,2],
+            "child_folder": []
+        },
+        {
+            "ID": 31,
+            "name": "裏譜面段位",
+            "parent_folder": [0,2],
+            "child_folder": []
+        },
+        {
+            "ID": 32,
+            "name": "段位テンプレート",
+            "parent_folder": [0,3],
+            "child_folder": []
+        },
+        {
+            "ID": 33,
+            "name": "譜面解析",
+            "parent_folder": [0,3],
+            "child_folder": []
+        }
+    ],
+    
+    "information": {
+        "max_folder_ID": 33,
+        "max_item_ID": 0
     }
-]
+}
