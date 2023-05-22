@@ -234,6 +234,12 @@
     
     "Item": [
         {
+            "ID": 0,
+            "name": "empty",
+            "kind": "none",
+            "parent_folder": []
+        },
+        {
 			"ID": 1,
 			"name": "パラレルレイヤー",
 			"kind": "score",
