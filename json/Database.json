@@ -285,6 +285,6 @@
     
     "Information": {
         "max_folder_ID": 33,
-        "max_item_ID": 0
+        "max_item_ID": 999
     }
 }
