@@ -236,48 +236,56 @@
         {
             "ID": 0,
             "name": "empty",
+    	    "difficulty": [],
             "kind": "none",
             "parent_folder": []
         },
         {
 		    "ID": 1,
 		    "name": "AciculignosA",
+		    "difficulty": {4:10, 3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		},
         {
 		    "ID": 2,
 		    "name": "AMBITIOUS JAPAN!",
+		    "difficulty": {3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		},
         {
 		    "ID": 3,
 		    "name": "Check It Out",
+		    "difficulty": {4:10, 3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		},
         {
 		    "ID": 4,
 		    "name": "Get On The Floor",
+		    "difficulty": {3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		},
         {
 		    "ID": 5,
 		    "name": "SUNSUN サマー！",
+		    "difficulty": {3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		},
         {
 		    "ID": 6,
 		    "name": "トレーナー戦(レジェンズ アルセウス)",
+		    "difficulty": {4:10, 3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		},
         {
 		    "ID": 7,
 		    "name": "パラレルレイヤー",
+		    "difficulty": {4:10, 3:8},
 		    "kind": "score",
 		    "parent_folder": [4]
 		}
