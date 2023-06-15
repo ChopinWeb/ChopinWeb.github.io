@@ -339,6 +339,7 @@
     
     "Information": {
         "max_folder_ID": 33,
-        "max_item_ID": 999
+        "max_item_ID": 999,
+        "course_name": ["かんたん", "ふつう", "むずかしい", "おに", "おに(裏)"]
     }
 }
