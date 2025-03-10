@@ -29,7 +29,7 @@
             "name": "星8クラス",
             "parent_folder": [0,1],
             "child_folder": [],
-            "child_item": [1,2,3,4,5,6,7],
+            "child_item": [],
 		    "kind": "score",
 		    "remarks": ["いずれも創作譜面"]
         },
@@ -65,7 +65,7 @@
             "name": "星10強クラス",
             "parent_folder": [0,1],
             "child_folder": [],
-            "child_item":[],
+            "child_item":[300],
 		    "kind": "score",
 		    "remarks": ["いずれも創作譜面"]
         },
@@ -83,7 +83,7 @@
             "name": "星10最難関クラス",
             "parent_folder": [0,1],
             "child_folder": [],
-            "child_item":[],
+            "child_item":[1],
 		    "kind": "score",
 		    "remarks": ["いずれも創作譜面"]
         },
@@ -277,21 +277,21 @@
         },
         {
 		    "ID": 1,
-		    "name": "AciculignosA",
+		    "name": "Caribbean Knight(裏)",
 		    "score_info": [
-		        {"course":4, "star":10, "combo":886, "mean_density":7.655}, 
-		        {"course":3, "star":8, "combo":618, "mean_density":5.508}
+		        {"course":4, "star":10, "combo":1236, "mean_density":9.655}
 		    ],
-		    "parent_folder": [4],
+		    "parent_folder": [10],
 			"server_no": "01"
 		},
         {
-		    "ID": 2,
-		    "name": "AMBITIOUS JAPAN!",
+		    "ID": 300,
+		    "name": "スリケンランナー(裏)",
 		    "difficulty": [
-		        {"course":3, "star":8}
+		        {"course":4, "star":10, "combo":928, "mean_density":7.746}
 		    ],
-		    "parent_folder": [4]
+		    "parent_folder": [8],
+			"server_no": "01"
 		}
     ],
     
