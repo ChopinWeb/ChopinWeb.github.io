@@ -110,8 +110,8 @@ function makeElements(data) {
 		let contents_info = document.getElementById("contents_info");
 		contents_info.appendChild(download_btn);
 		download_btn.addEventListener("click", () => {
-			//download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/Download.html?itm=" + item;
-			download_URL = "Download.html?itm=" + item;
+			download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/Download.html?itm=" + item;
+			//download_URL = "Download.html?itm=" + item;
 			newTab = window.open(download_URL, "_blank");
         });
 		console.log(data["Item"][item].name);
