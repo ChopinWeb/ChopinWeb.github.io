@@ -278,59 +278,17 @@
         {
 		    "ID": 1,
 		    "name": "AciculignosA",
-		    "difficulty": [
-		        {"course":4, "star":10}, 
-		        {"course":3, "star":8}
+		    "score_info": [
+		        {"course":4, "star":10, "combo":886, "mean_density":7.655}, 
+		        {"course":3, "star":8, "combo":618, "mean_density":5.508}
 		    ],
-		    "parent_folder": [4]
+		    "parent_folder": [4],
+			"server_no": "01"
 		},
         {
 		    "ID": 2,
 		    "name": "AMBITIOUS JAPAN!",
 		    "difficulty": [
-		        {"course":3, "star":8}
-		    ],
-		    "parent_folder": [4]
-		},
-        {
-		    "ID": 3,
-		    "name": "Check It Out",
-		    "difficulty": [
-		        {"course":4, "star":10}, 
-		        {"course":3, "star":8}
-		    ],
-		    "parent_folder": [4]
-		},
-        {
-		    "ID": 4,
-		    "name": "Get On The Floor",
-		    "difficulty": [
-		        {"course":3, "star":8}
-		    ],
-		    "parent_folder": [4]
-		},
-        {
-		    "ID": 5,
-		    "name": "SUNSUN サマー！",
-		    "difficulty": [
-		        {"course":3, "star":8}
-		    ],
-		    "parent_folder": [4]
-		},
-        {
-		    "ID": 6,
-		    "name": "トレーナー戦(レジェンズ アルセウス)",
-		    "difficulty": [
-		        {"course":4, "star":10}, 
-		        {"course":3, "star":8}
-		    ],
-		    "parent_folder": [4]
-		},
-        {
-		    "ID": 7,
-		    "name": "パラレルレイヤー",
-		    "difficulty": [
-		        {"course":4, "star":10}, 
 		        {"course":3, "star":8}
 		    ],
 		    "parent_folder": [4]
