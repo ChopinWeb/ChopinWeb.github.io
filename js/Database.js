@@ -36,17 +36,19 @@ function makeElements(data) {
 			return;
 		}
 	}
-	if (folder_str != null && item_str != null){ //どちらものパラメータに値が入力されている場合
+	if (folder_str == null && item_str != null){ //アイテムパラメータにだけ値が入力されている場合
 		showErrorMsg(1);
 		return;
 	}
 	
 	//URLパラメータを数値に変換
 	let folder, item;
-	if (folder_str != null) folder = parseInt(folder_str);
-	if (item_str != null) item = parseInt(item_str);
-	if (folder == null && item == null) folder = 0;
-	//if (item_str != null) folder = 
+	if (folder_str == null && item_str == null) folder = 0;
+	else if (folder_str != null && item_str == null) folder = parseInt(folder_str);
+	else{
+		item = parseInt(item_str);
+		folder = data["Item"][item].parent_folder;
+	}
 	console.log(folder, item);
 	console.log(typeof folder, typeof item);
 	
@@ -63,25 +65,63 @@ function makeElements(data) {
 	}
 	let path_element = document.createElement("a"); //自身のフォルダをファイルパスに追加
 	path_element.innerText = data["Folder"][folder].name;
+	if (item_str != null) path_element.href = "./Database.html?fld=" + folder;
 	file_path.append(path_element);
+	if (item_str != null){ //アイテム名追加
+		console.log("oij");
+		let path_element = document.createElement("a"); //アイテム名
+		let path_joint = document.createElement("span"); //フォルダの接合部分
+		path_element.innerText = data["Item"][item].name;
+		path_joint.innerText = " > ";
+		file_path.append(path_joint);
+		file_path.append(path_element);
+	}
 
 	//そのフォルダ内にあるコンテンツ・フォルダを表示
-	child_content = document.getElementById("child_content");
-	for (let i=0; i<data["Folder"][folder].child_folder.length; i++){
-		let child_element = document.createElement("li");
-		let child_link = document.createElement("a");
-		child_link.innerText = data["Folder"][data["Folder"][folder].child_folder[i]].name;
-		child_link.href = "./Database.html?fld=" + data["Folder"][folder].child_folder[i];
-		child_element.append(child_link);
-		child_content.append(child_element);
+	if (item_str == null){
+		child_content = document.getElementById("child_content");
+		if (data["Folder"][folder].child_folder.length!=0){ //末端フォルダでない場合
+			for (let i=0; i<data["Folder"][folder].child_folder.length; i++){
+				let child_element = document.createElement("li");
+				let child_link = document.createElement("a");
+				child_link.innerText = data["Folder"][data["Folder"][folder].child_folder[i]].name;
+				child_link.href = "./Database.html?fld=" + data["Folder"][folder].child_folder[i];
+				child_element.append(child_link);
+				child_content.append(child_element);
+			}
+		}
+		else if (data["Folder"][folder].child_item.length!=0){ //末端フォルダの場合
+			for (let i=0; i<data["Folder"][folder].child_item.length; i++){
+				let child_element = document.createElement("li");
+				let child_link = document.createElement("a");
+				child_link.innerText = data["Item"][data["Folder"][folder].child_item[i]].name;
+				child_link.href = "./Database.html?fld=" + folder + "&itm=" + data["Folder"][folder].child_item[i];
+				child_element.append(child_link);
+				child_content.append(child_element);
+			}
+		}
+	}
+	
+	//コンテンツ情報を表示
+	else{
+		download_btn = document.createElement("button");
+        download_btn.id = "download_btn";
+        download_btn.innerText = "ダウンロード（保管用の別サイトへ移動します）";	
+		let contents_info = document.getElementById("contents_info");
+		contents_info.appendChild(download_btn);
+		download_btn.addEventListener("click", () => {
+			//download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/Download.html?itm=" + item;
+			download_URL = "Download.html?itm=" + item;
+			newTab = window.open(download_URL, "_blank");
+        });
+		console.log(data["Item"][item].name);
 	}
 }
 
 function showContents(){
 	//JSONデータ読み込み
-	//let requestURL = "./json/Database_folder.json"; //jsonへのパス
+	//let requestURL = "./json/Database.json"; //jsonへのパス
 	let requestURL = "https://chopinweb.github.io/json/Database.json"; //jsonへのパス
-	//let requestURL = "https://chopinweb.github.io/json/test.json"; //jsonへのパス
 	let request = new XMLHttpRequest();
 	request.open('GET', requestURL);
 	request.send();
