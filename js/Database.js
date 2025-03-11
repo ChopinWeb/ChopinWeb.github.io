@@ -53,14 +53,24 @@ function makeElements(data) {
 	
 	//ファイルパスを形成
 	file_path = document.getElementById("file_path");
-	for (let i=0; i<data["Folder"][folder].parent_folder.length; i++){
-		let path_element = document.createElement("a"); //各上位フォルダ
-		let path_joint = document.createElement("span"); //フォルダの接合部分
-		path_element.innerText = data["Folder"][data["Folder"][folder].parent_folder[i]].name;
-		path_element.href = "./Database.html?fld=" + data["Folder"][folder].parent_folder[i];
-		path_joint.innerText = " > ";
-		file_path.append(path_element);
-		file_path.append(path_joint);
+	if (folder!=0){
+		let now_folder_parent;
+		let now_folder = folder;
+		let parent_folder_list = [];
+		while (now_folder!=0){
+			now_folder_parent = data["Folder"][now_folder].parent_folder;
+			parent_folder_list.push(now_folder_parent);
+			now_folder = now_folder_parent;
+		}
+		for (let i=parent_folder_list.length-1; i>-1; i--){
+			let path_element = document.createElement("a"); //各上位フォルダ
+			let path_joint = document.createElement("span"); //フォルダの接合部分
+			path_element.innerText = data["Folder"][parent_folder_list[i]].name;
+			path_element.href = "./Database.html?fld=" + parent_folder_list[i];
+			path_joint.innerText = " > ";
+			file_path.append(path_element);
+			file_path.append(path_joint);
+		}
 	}
 	let path_element = document.createElement("a"); //自身のフォルダをファイルパスに追加
 	path_element.innerText = data["Folder"][folder].name;
