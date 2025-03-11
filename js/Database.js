@@ -49,8 +49,7 @@ function makeElements(data) {
 		item = parseInt(item_str);
 		folder = data["Item"][item].parent_folder;
 	}
-	console.log(folder, item);
-	console.log(typeof folder, typeof item);
+	//console.log(folder, item);
 	
 	//ファイルパスを形成
 	file_path = document.getElementById("file_path");
@@ -68,7 +67,6 @@ function makeElements(data) {
 	if (item_str != null) path_element.href = "./Database.html?fld=" + folder;
 	file_path.append(path_element);
 	if (item_str != null){ //アイテム名追加
-		console.log("oij");
 		let path_element = document.createElement("a"); //アイテム名
 		let path_joint = document.createElement("span"); //フォルダの接合部分
 		path_element.innerText = data["Item"][item].name;
@@ -106,15 +104,22 @@ function makeElements(data) {
 	else{
 		download_btn = document.createElement("button");
         download_btn.id = "download_btn";
-        download_btn.innerText = "ダウンロード（保管用の別サイトへ移動します）";	
+        download_btn.innerText = "ダウンロード";	
 		let contents_info = document.getElementById("contents_info");
 		contents_info.appendChild(download_btn);
 		download_btn.addEventListener("click", () => {
-			download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/Download.html?itm=" + item;
-			//download_URL = "Download.html?itm=" + item;
-			newTab = window.open(download_URL, "_blank");
-        });
-		console.log(data["Item"][item].name);
+            const fileName = data["Item"][item].name + ".zip";
+            //const downloadURL = "item/" + encodeURIComponent(fileName);
+            const download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/item/" + encodeURIComponent(fileName);
+            const download_link = document.createElement("a"); //<a> 要素を作成
+            download_link.href = download_URL;
+            download_link.download = fileName;
+            document.body.appendChild(download_link);
+            download_link.click(); //自動的にクリックしてダウンロードを開始
+            document.body.removeChild(link); //<a>要素を削除
+		});
+		//console.log(fileName);
+		//console.log(download_URL);
 	}
 }
 
@@ -130,7 +135,7 @@ function showContents(){
 	request.onload = function(){
   		let data_string = request.response;
   		data = JSON.parse(data_string);
-  		console.log(data);
+  		//console.log(data);
   		makeElements(data); //document要素を生成
 	}
  }
