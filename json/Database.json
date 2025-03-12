@@ -337,8 +337,8 @@
         },
         {
             "ID": 11,
-            "name": "Xeroa",
-            "real_name": "Xéroa",
+            "name": "Xéroa",
+            "file_name": "Xeroa",
             "server_no": "01",
             "score_info": [
                 {
@@ -403,8 +403,8 @@
         },
         {
             "ID": 16,
-            "name": "レイドボス_カタストロフィック・ラヴ",
-            "real_name": "レイドボス: カタストロフィック・ラヴ",
+            "name": "レイドボス: カタストロフィック・ラヴ",
+            "file_name": "レイドボス_カタストロフィック・ラヴ",
             "server_no": "01",
             "score_info": [
                 {
