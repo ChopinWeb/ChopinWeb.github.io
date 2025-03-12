@@ -115,15 +115,16 @@ function makeElements(data) {
 		let contents_info = document.getElementById("contents_info");
 		contents_info.appendChild(download_btn);
 		download_btn.addEventListener("click", () => {
-            const fileName = data["Item"][item].name + ".zip";
-            //const downloadURL = "item/" + encodeURIComponent(fileName);
-            const download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/item/" + encodeURIComponent(fileName);
-            const download_link = document.createElement("a"); //<a> 要素を作成
+            if ("file_name" in data["Item"][item]) file_name = data["Item"][item].file_name + ".zip";
+			else file_name = data["Item"][item].name + ".zip";
+			//const downloadURL = "item/" + encodeURIComponent(fileName);
+            download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/item/" + encodeURIComponent(file_name);
+            download_link = document.createElement("a"); //<a> 要素を作成
             download_link.href = download_URL;
-            download_link.download = fileName;
+            download_link.download = file_name;
             document.body.appendChild(download_link);
             download_link.click(); //自動的にクリックしてダウンロードを開始
-            document.body.removeChild(link); //<a>要素を削除
+            document.body.removeChild(download_link); //<a>要素を削除
 		});
 		//console.log(fileName);
 		//console.log(download_URL);
@@ -142,7 +143,7 @@ function showContents(){
 	request.onload = function(){
   		let data_string = request.response;
   		data = JSON.parse(data_string);
-  		console.log(data);
+  		//console.log(data);
   		makeElements(data); //document要素を生成
 	}
  }
