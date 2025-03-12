@@ -43,12 +43,9 @@ function makeElements(data) {
 	
 	//URLパラメータを数値に変換
 	let folder, item;
-	if (folder_str == null && item_str == null) folder = 0;
-	else if (folder_str != null && item_str == null) folder = parseInt(folder_str);
-	else{
-		item = parseInt(item_str);
-		folder = data["Item"][item].parent_folder;
-	}
+	if (folder_str == null) folder = 0;
+	else folder = parseInt(folder_str);
+	if (item_str != null) item = parseInt(item_str);
 	//console.log(folder, item);
 	
 	//ファイルパスを形成
@@ -135,8 +132,8 @@ function makeElements(data) {
 
 function showContents(){
 	//JSONデータ読み込み
-	//let requestURL = "./json/Database.json"; //jsonへのパス
-	let requestURL = "https://chopinweb.github.io/json/Database.json"; //jsonへのパス
+	let requestURL = "file:///C:/ChopinWeb/main/json/Database.json"; //jsonへのパス
+	//let requestURL = "https://chopinweb.github.io/json/Database.json"; //jsonへのパス
 	let request = new XMLHttpRequest();
 	request.open('GET', requestURL);
 	request.send();
@@ -145,7 +142,7 @@ function showContents(){
 	request.onload = function(){
   		let data_string = request.response;
   		data = JSON.parse(data_string);
-  		//console.log(data);
+  		console.log(data);
   		makeElements(data); //document要素を生成
 	}
  }
