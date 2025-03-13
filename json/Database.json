@@ -33,7 +33,9 @@
             "ID": 2,
             "name": "創作段位",
             "parent_folder": 0,
-            "child_folder": []
+            "child_folder": [
+                16
+            ]
         },
         {
             "ID": 3,
@@ -94,6 +96,7 @@
             "child_folder": [],
             "child_item": [
                 19,
+                40,
                 10,
                 13,
                 503
@@ -110,9 +113,13 @@
             "child_folder": [],
             "child_item": [
                 2,
-                3,
                 4,
-                8
+                3,
+                8,
+                41,
+                37,
+                28,
+                44
             ],
             "kind": "score",
             "remarks": [
@@ -125,9 +132,13 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
+                27,
+                45,
+                26,
                 5,
                 504,
-                14
+                14,
+                39
             ],
             "kind": "score",
             "remarks": [
@@ -140,11 +151,17 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
+                29,
+                30,
                 12,
+                32,
+                31,
                 15,
                 17,
                 20,
-                9
+                9,
+                33,
+                43
             ],
             "kind": "score",
             "remarks": [
@@ -159,9 +176,14 @@
             "child_item": [
                 2,
                 1,
+                34,
                 18,
+                36,
+                35,
                 6,
+                41,
                 11,
+                38,
                 16
             ],
             "kind": "score",
@@ -174,7 +196,9 @@
             "name": "ネタ譜面",
             "parent_folder": 1,
             "child_folder": [],
-            "child_item": [],
+            "child_item": [
+                42
+            ],
             "kind": "score",
             "remarks": [
                 "いずれも創作譜面"
@@ -201,6 +225,29 @@
             "remarks": [
                 "いずれも創作譜面"
             ]
+        },
+        {
+            "ID": 16,
+            "name": "創作譜面段位",
+            "parent_folder": 2,
+            "child_folder": [
+                17
+            ]
+        },
+        {
+            "ID": 17,
+            "name": "アメジストver.",
+            "parent_folder": 16,
+            "child_folder": [],
+            "child_item": [
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "kind": "danni",
+            "remarks": []
         }
     ],
     "Item": [
@@ -229,11 +276,15 @@
             "score_info": [
                 {
                     "course": 4,
-                    "star": 10
+                    "star": 10,
+                    "combo": 1063,
+                    "mean_density": 9.279
                 },
                 {
                     "course": 3,
-                    "star": 10
+                    "star": 10,
+                    "combo": 925,
+                    "mean_density": 8.09
                 }
             ]
         },
@@ -244,7 +295,9 @@
             "score_info": [
                 {
                     "course": 3,
-                    "star": 10
+                    "star": 10,
+                    "combo": 1126,
+                    "mean_density": 8.342
                 }
             ]
         },
@@ -255,7 +308,9 @@
             "score_info": [
                 {
                     "course": 4,
-                    "star": 10
+                    "star": 10,
+                    "combo": 960,
+                    "mean_density": 8.39
                 }
             ]
         },
@@ -266,7 +321,9 @@
             "score_info": [
                 {
                     "course": 3,
-                    "star": 10
+                    "star": 10,
+                    "combo": 993,
+                    "mean_density": 8.681
                 }
             ]
         },
@@ -475,153 +532,338 @@
         },
         {
             "ID": 21,
-            "name": "",
+            "name": "アメジストver. 十段",
+            "file_name": "01. アメジストver. 十段",
             "server_no": "01",
-            "score_info": []
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 22,
-            "name": "",
+            "name": "アメジストver. 玄人",
+            "file_name": "02. アメジストver. 玄人",
             "server_no": "01",
-            "score_info": []
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 23,
-            "name": "",
+            "name": "アメジストver. 名人",
+            "file_name": "03. アメジストver. 名人",
             "server_no": "01",
-            "score_info": []
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 24,
-            "name": "",
+            "name": "アメジストver. 超人",
+            "file_name": "04. アメジストver. 超人",
             "server_no": "01",
-            "score_info": []
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 25,
-            "name": "",
+            "name": "アメジストver. 達人",
+            "file_name": "05. アメジストver. 達人",
             "server_no": "01",
-            "score_info": []
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 26,
-            "name": "",
+            "name": "Noël",
+            "file_name": "Noel",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 938,
+                    "mean_density": 6.885
+                }
+            ]
         },
         {
             "ID": 27,
-            "name": "",
+            "name": "ANiMA",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 912,
+                    "mean_density": 9.165
+                }
+            ]
         },
         {
             "ID": 28,
-            "name": "",
+            "name": "天狗囃子(裏)",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 914,
+                    "mean_density": 6.044
+                }
+            ]
         },
         {
             "ID": 29,
-            "name": "",
+            "name": "ALiUS",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1050,
+                    "mean_density": 6.868
+                }
+            ]
         },
         {
             "ID": 30,
-            "name": "",
+            "name": "CHAOS MAGNVM",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1272,
+                    "mean_density": 7.906
+                }
+            ]
         },
         {
             "ID": 31,
-            "name": "",
+            "name": "Magicatz(裏)",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1000,
+                    "mean_density": 7.016
+                }
+            ]
         },
         {
             "ID": 32,
-            "name": "",
+            "name": "I",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1051,
+                    "mean_density": 9.12
+                }
+            ]
         },
         {
             "ID": 33,
-            "name": "",
+            "name": "モ°ルモ°ル",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1251,
+                    "mean_density": 9.628
+                }
+            ]
         },
         {
             "ID": 34,
-            "name": "",
+            "name": "Dyscontrolled Galaxy",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1128,
+                    "mean_density": 9.095
+                }
+            ]
         },
         {
             "ID": 35,
-            "name": "",
+            "name": "QZKago Requiem",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1004,
+                    "mean_density": 7.517
+                }
+            ]
         },
         {
             "ID": 36,
-            "name": "",
+            "name": "PANDORA PARADOXXX",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1300,
+                    "mean_density": 9.235
+                },
+                {
+                    "course": 2,
+                    "star": 8,
+                    "combo": 988,
+                    "mean_density": 7.017
+                },
+                {
+                    "course": 1,
+                    "star": 7,
+                    "combo": 765,
+                    "mean_density": 5.431
+                },
+                {
+                    "course": 0,
+                    "star": 5,
+                    "combo": 496,
+                    "mean_density": 3.519
+                }
+            ]
         },
         {
             "ID": 37,
-            "name": "",
+            "name": "バトルタワー戦闘音楽（剣盾）",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1088,
+                    "mean_density": 7.453
+                }
+            ]
         },
         {
             "ID": 38,
-            "name": "",
+            "name": "デッドマンズバラッド",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1740,
+                    "mean_density": 10.944
+                }
+            ]
         },
         {
             "ID": 39,
-            "name": "",
+            "name": "紅(裏)",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1442,
+                    "mean_density": 9.984
+                }
+            ]
         },
         {
             "ID": 40,
-            "name": "",
+            "name": "VIVIVIVID",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 765,
+                    "mean_density": 7.87
+                }
+            ]
         },
         {
             "ID": 41,
-            "name": "",
+            "name": "Vixtory",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1255,
+                    "mean_density": 9.502
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 967,
+                    "mean_density": 7.333
+                }
+            ]
         },
         {
             "ID": 42,
-            "name": "",
+            "name": "『あぶない！ 高速道路の逆走』",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 198,
+                    "mean_density": 2.881
+                }
+            ]
         },
         {
             "ID": 43,
-            "name": "",
+            "name": "儚姫は原初に舞う",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 996,
+                    "mean_density": 8.481
+                }
+            ]
         },
         {
             "ID": 44,
-            "name": "",
+            "name": "螺旋周回軌道",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 989,
+                    "mean_density": 7.531
+                }
+            ]
         },
         {
             "ID": 45,
-            "name": "",
+            "name": "LECIEL GLISSANDO",
             "server_no": "01",
-            "score_info": []
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 818,
+                    "mean_density": 6.701
+                }
+            ]
         },
         {
             "ID": 46,
@@ -3407,7 +3649,7 @@
         }
     ],
     "Information": {
-        "max_folder_ID": 15,
+        "max_folder_ID": 17,
         "max_item_ID": 504,
         "course_name": [
             "かんたん",
