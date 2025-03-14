@@ -9,7 +9,8 @@
                 2,
                 3,
                 4
-            ]
+            ],
+            "remarks": []
         },
         {
             "ID": 1,
@@ -27,6 +28,9 @@
                 13,
                 14,
                 15
+            ],
+            "remarks": [
+                "いずれも創作譜面"
             ]
         },
         {
@@ -35,19 +39,24 @@
             "parent_folder": 0,
             "child_folder": [
                 16
+            ],
+            "remarks": [
+                "譜面ファイルとスキンファイルの2つがダウンロードされるので、それらの中身を1つの同じフォルダに入れてご利用ください。"
             ]
         },
         {
             "ID": 3,
             "name": "本家譜面",
             "parent_folder": 0,
-            "child_folder": []
+            "child_folder": [],
+            "remarks": []
         },
         {
             "ID": 4,
             "name": "便利ツール",
             "parent_folder": 0,
-            "child_folder": []
+            "child_folder": [],
+            "remarks": []
         },
         {
             "ID": 5,
@@ -58,9 +67,7 @@
                 501
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 6,
@@ -71,9 +78,7 @@
                 19
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 7,
@@ -85,9 +90,7 @@
                 502
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 8,
@@ -102,9 +105,7 @@
                 503
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 9,
@@ -122,9 +123,7 @@
                 44
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 10,
@@ -141,9 +140,7 @@
                 39
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 11,
@@ -164,9 +161,7 @@
                 43
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 12,
@@ -187,9 +182,7 @@
                 16
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 13,
@@ -200,9 +193,7 @@
                 42
             ],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 14,
@@ -211,9 +202,7 @@
             "child_folder": [],
             "child_item": [],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 15,
@@ -222,9 +211,7 @@
             "child_folder": [],
             "child_item": [],
             "kind": "score",
-            "remarks": [
-                "いずれも創作譜面"
-            ]
+            "remarks": []
         },
         {
             "ID": 16,
@@ -232,7 +219,8 @@
             "parent_folder": 2,
             "child_folder": [
                 17
-            ]
+            ],
+            "remarks": []
         },
         {
             "ID": 17,
