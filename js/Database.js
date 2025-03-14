@@ -134,14 +134,14 @@ function makeElements(data) {
 		contents_info.appendChild(remarks);
 		
 		//ダウンロードボタン
-		download_btn = document.createElement("button");
+		//console.log(data["Item"][item].drive_id);
+		let download_btn = document.createElement("button");
         download_btn.id = "download_btn";
         download_btn.innerText = "ダウンロード";
 		contents_info.appendChild(download_btn);
 		download_btn.addEventListener("click", () => {
-        if ("file_name" in data["Item"][item]) file_name = data["Item"][item].file_name + ".zip";
-		else file_name = data["Item"][item].name + ".zip";
-        download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/item/" + encodeURIComponent(file_name);
+			file_name = data["Item"][item].name + ".zip";
+			download_URL = "https://drive.google.com/uc?export=download&id=" + data["Item"][item].drive_id;
 			downloadFile(file_name, download_URL);
 			if (data["Folder"][folder]["kind"]=="danni"){ //段位の場合、スキンもダウンロード
 				file_name = "skin.zip";
