@@ -16,6 +16,16 @@ function showErrorMsg(code){
 	if (code == 2) error_msg.innerText = "指定のフォルダ、ファイルは存在しません。";
 }
 
+//ファイルをダウンロード
+function downloadFile(file_name, download_URL){
+	download_link = document.createElement("a"); //<a> 要素を作成
+	download_link.href = download_URL;
+	download_link.download = file_name;
+	document.body.appendChild(download_link);
+    download_link.click(); //自動的にクリックしてダウンロードを開始
+    document.body.removeChild(download_link); //<a>要素を削除
+}
+
  //document要素を形成
  //fld, itmがnullの場合，最大値を超えた場合は未想定
 function makeElements(data) {
@@ -50,10 +60,10 @@ function makeElements(data) {
 	
 	//ファイルパスを形成
 	file_path = document.getElementById("file_path");
+	let parent_folder_list = [];
 	if (folder!=0){
 		let now_folder_parent;
 		let now_folder = folder;
-		let parent_folder_list = [];
 		while (now_folder!=0){
 			now_folder_parent = data["Folder"][now_folder].parent_folder;
 			parent_folder_list.push(now_folder_parent);
@@ -109,25 +119,35 @@ function makeElements(data) {
 	
 	//コンテンツ情報を表示
 	else{
+		let contents_info = document.getElementById("contents_info");
+
+		//備考
+		let remarks = document.createElement("ul");
+		parent_folder_list.unshift(folder) //parent_folder_listにfolderを追加
+		for (let i=parent_folder_list.length-1; i>-1; i--){ //祖先フォルダから順にremarksの内容を追加
+			for (let j=0; j<data["Folder"][parent_folder_list[i]]["remarks"].length; j++){
+				let remarks_single = document.createElement("li");
+				remarks_single.innerText = data["Folder"][parent_folder_list[i]]["remarks"][j];
+				remarks.appendChild(remarks_single);
+			}
+		}
+		contents_info.appendChild(remarks);
+		
+		//ダウンロードボタン
 		download_btn = document.createElement("button");
         download_btn.id = "download_btn";
-        download_btn.innerText = "ダウンロード";	
-		let contents_info = document.getElementById("contents_info");
+        download_btn.innerText = "ダウンロード";
 		contents_info.appendChild(download_btn);
 		download_btn.addEventListener("click", () => {
-            if ("file_name" in data["Item"][item]) file_name = data["Item"][item].file_name + ".zip";
-			else file_name = data["Item"][item].name + ".zip";
-			//const downloadURL = "item/" + encodeURIComponent(fileName);
-            download_URL = "https://chopinserver" + data["Item"][item].server_no + ".github.io/item/" + encodeURIComponent(file_name);
-            download_link = document.createElement("a"); //<a> 要素を作成
-            download_link.href = download_URL;
-            download_link.download = file_name;
-            document.body.appendChild(download_link);
-            download_link.click(); //自動的にクリックしてダウンロードを開始
-            document.body.removeChild(download_link); //<a>要素を削除
+        if ("file_name" in data["Item"][item]) file_name = data["Item"][item].file_name + ".zip";
+		else file_name = data["Item"][item].name + ".zip";
+        download_URL = "https://drive.google.com/uc?export=download&id=1y1yTMpUVOWWm4oamVG66fLEF-YqZmJLr"
+		//"https://chopinserver" + data["Item"][item].server_no + ".github.io/item/" + encodeURIComponent(file_name);
+			downloadFile(file_name, download_URL);
+			if (data["Folder"][folder]["kind"]=="danni"){ //段位の場合、スキンもダウンロード
+				file_name = "skin.zip";
+			}
 		});
-		//console.log(fileName);
-		//console.log(download_URL);
 	}
 }
 
@@ -143,7 +163,6 @@ function showContents(){
 	request.onload = function(){
   		let data_string = request.response;
   		data = JSON.parse(data_string);
-  		//console.log(data);
   		makeElements(data); //document要素を生成
 	}
  }
