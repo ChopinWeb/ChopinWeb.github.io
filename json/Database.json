@@ -99,6 +99,7 @@
             "child_folder": [],
             "child_item": [
                 19,
+                501,
                 40,
                 10,
                 13,
@@ -3589,6 +3590,12 @@
             "name": "Shadow Fairies",
             "drive_id": "1TgL2KNHBjYGXNDfuhS9M1214OJXJwGli",
             "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 637,
+                    "mean_density": 6.523
+                },
                 {
                     "course": 3,
                     "star": 7,
