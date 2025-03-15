@@ -383,6 +383,7 @@
         {
             "ID": 11,
             "name": "Xéroa",
+            "file_name": "Xeroa",
             "drive_id": "1exEJ1nYeOQtp7vM3IZx33uB34CaS5udg",
             "score_info": [
                 {
@@ -448,6 +449,7 @@
         {
             "ID": 16,
             "name": "レイドボス: カタストロフィック・ラヴ",
+            "file_name": "レイドボス_カタストロフィック・ラヴ",
             "drive_id": "1HlOYPq2Ai8L_VQIZXFw4pG5HZUumb5-T",
             "score_info": [
                 {
@@ -520,7 +522,7 @@
             "ID": 21,
             "name": "アメジストver. 十段",
             "drive_id": "1Af5L8vymNdgZM9sLP--Of-tOLd3E6hc9",
-            "danni_order": "10",
+            "danni_order": 10,
             "danni_info": {
                 "score": [],
                 "condition": []
@@ -530,7 +532,7 @@
             "ID": 22,
             "name": "アメジストver. 玄人",
             "drive_id": "1waLKuVbm93K97YRzW1ZgUG7yuABYDSHR",
-            "danni_order": "11",
+            "danni_order": 11,
             "danni_info": {
                 "score": [],
                 "condition": []
@@ -540,7 +542,7 @@
             "ID": 23,
             "name": "アメジストver. 名人",
             "drive_id": "1z6_S2V6Y7WBktaDeyb9TC97TErh3Hw1z",
-            "danni_order": "12",
+            "danni_order": 12,
             "danni_info": {
                 "score": [],
                 "condition": []
@@ -551,7 +553,7 @@
             "name": "アメジストver. 超人",
             "file_name": "04. アメジストver. 超人",
             "drive_id": "1W9Ys6CHTLMNAbF7b6msWZDPuS-rVd-bo",
-            "danni_order": "13",
+            "danni_order": 13,
             "danni_info": {
                 "score": [],
                 "condition": []
@@ -561,7 +563,7 @@
             "ID": 25,
             "name": "アメジストver. 達人",
             "drive_id": "1IEHymhr0MNrxLkjlyWVcOrWt2S-xRHIN",
-            "danni_order": "14",
+            "danni_order": 14,
             "danni_info": {
                 "score": [],
                 "condition": []
