@@ -16,14 +16,21 @@ function showErrorMsg(code){
 	if (code == 2) error_msg.innerText = "指定のフォルダ、ファイルは存在しません。";
 }
 
-//ファイルをダウンロード
-function downloadFile(file_name, download_URL){
-	download_link = document.createElement("a"); //<a> 要素を作成
-	download_link.href = download_URL;
-	download_link.download = file_name;
-	document.body.appendChild(download_link);
-    download_link.click(); //自動的にクリックしてダウンロードを開始
-    document.body.removeChild(download_link); //<a>要素を削除
+//ダウンロードボタンを追加
+function addDownloadBtn(file_name, download_URL, btn_name, btn_text){
+	let download_link = document.getElementById("download_link");
+	let download_btn = document.createElement("button"); //ボタン
+	download_btn.id = btn_name;
+    download_btn.innerText = btn_text;
+	download_link.appendChild(download_btn);
+	download_btn.addEventListener("click", () => {
+		let downloader = document.createElement("a"); //<a>要素を作成
+		downloader.href = download_URL;
+		downloader.download = file_name;
+		document.body.appendChild(downloader);
+		downloader.click(); //自動的にクリックしてダウンロードを開始
+		document.body.removeChild(downloader); //<a>要素を削除
+	});
 }
 
  //document要素を形成
@@ -117,7 +124,7 @@ function makeElements(data) {
 		}
 	}
 	
-	//コンテンツ情報を表示
+	//コンテンツ情報とダウンロードリンクを表示
 	else{
 		let contents_info = document.getElementById("contents_info");
 
@@ -134,19 +141,18 @@ function makeElements(data) {
 		contents_info.appendChild(remarks);
 		
 		//ダウンロードボタン
-		//console.log(data["Item"][item].drive_id);
-		let download_btn = document.createElement("button");
-        download_btn.id = "download_btn";
-        download_btn.innerText = "ダウンロード";
-		contents_info.appendChild(download_btn);
-		download_btn.addEventListener("click", () => {
-			file_name = data["Item"][item].name + ".zip";
-			download_URL = "https://drive.google.com/uc?export=download&id=" + data["Item"][item].drive_id;
-			downloadFile(file_name, download_URL);
-			if (data["Folder"][folder]["kind"]=="danni"){ //段位の場合、スキンもダウンロード
-				file_name = "skin.zip";
-			}
-		});
+		let file_name = ("file_name" in data["Item"][item] ? data["Item"][item].file_name : data["Item"][item].name) + "." + data["Information"]["file_format"][data["Folder"][folder]["kind"]];
+		let download_URL = "https://drive.google.com/uc?export=download&id=" + data["Item"][item].drive_id;
+		let btn_name = "item_download_btn";
+		let btn_text = "ダウンロード" + (data["Folder"][folder]["kind"]=="danni" ? "（譜面）" : "");
+		addDownloadBtn(file_name, download_URL, btn_name, btn_text);
+		if (data["Folder"][folder]["kind"]=="danni"){ //段位の場合、スキンもダウンロード
+			file_name = "skin.zip";
+			download_URL = "https://ChopinServer.github.io/danni_skin/skin_" + (data["Folder"][folder]["danni_order"]<10 ? "0" : "") + String(data["Item"][item]["danni_order"]) + ".zip";
+			btn_name = "skin_download_btn";
+			btn_text = "ダウンロード（スキン）";
+			addDownloadBtn(file_name, download_URL, btn_name, btn_text);
+		}
 	}
 }
 

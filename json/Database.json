@@ -38,10 +38,11 @@
             "name": "創作段位",
             "parent_folder": 0,
             "child_folder": [
-                16
+                16,
+                18
             ],
             "remarks": [
-                "譜面ファイルとスキンファイルの2つがダウンロードされるので、それらの中身を1つの同じフォルダに入れてご利用ください。"
+                "譜面ファイルとスキンファイルの2つに分かれているので、それらの中身を1つの同じフォルダに入れてご利用ください。"
             ]
         },
         {
@@ -55,7 +56,10 @@
             "ID": 4,
             "name": "便利ツール",
             "parent_folder": 0,
-            "child_folder": [],
+            "child_folder": [
+                20,
+                21
+            ],
             "remarks": []
         },
         {
@@ -75,7 +79,8 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
-                19
+                19,
+                56
             ],
             "kind": "score",
             "remarks": []
@@ -87,6 +92,8 @@
             "child_folder": [],
             "child_item": [
                 7,
+                54,
+                72,
                 502
             ],
             "kind": "score",
@@ -99,11 +106,14 @@
             "child_folder": [],
             "child_item": [
                 19,
+                56,
+                66,
                 501,
                 40,
                 10,
                 13,
-                503
+                503,
+                50
             ],
             "kind": "score",
             "remarks": []
@@ -115,12 +125,16 @@
             "child_folder": [],
             "child_item": [
                 2,
+                49,
                 4,
                 3,
                 8,
+                48,
+                70,
                 41,
                 37,
                 28,
+                67,
                 44
             ],
             "kind": "score",
@@ -133,12 +147,20 @@
             "child_folder": [],
             "child_item": [
                 27,
+                71,
+                57,
                 45,
                 26,
+                54,
                 5,
+                46,
+                70,
                 504,
+                65,
                 14,
-                39
+                69,
+                39,
+                52
             ],
             "kind": "score",
             "remarks": []
@@ -156,10 +178,16 @@
                 31,
                 15,
                 17,
+                70,
+                53,
+                64,
                 20,
                 9,
                 33,
-                43
+                63,
+                43,
+                55,
+                51
             ],
             "kind": "score",
             "remarks": []
@@ -173,12 +201,14 @@
                 2,
                 1,
                 34,
+                57,
                 18,
                 36,
                 35,
                 6,
                 41,
                 11,
+                47,
                 38,
                 16
             ],
@@ -191,7 +221,9 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
-                42
+                68,
+                42,
+                74
             ],
             "kind": "score",
             "remarks": []
@@ -201,7 +233,9 @@
             "name": "半創作譜面",
             "parent_folder": 1,
             "child_folder": [],
-            "child_item": [],
+            "child_item": [
+                73
+            ],
             "kind": "score",
             "remarks": []
         },
@@ -236,6 +270,54 @@
                 25
             ],
             "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 18,
+            "name": "裏段位",
+            "parent_folder": 2,
+            "child_folder": [
+                19
+            ],
+            "remarks": []
+        },
+        {
+            "ID": 19,
+            "name": "裏人段位2020",
+            "parent_folder": 18,
+            "child_folder": [],
+            "child_item": [
+                58,
+                59,
+                60,
+                61
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 20,
+            "name": "段位テンプレート",
+            "parent_folder": 4,
+            "child_folder": [],
+            "child_item": [
+                62
+            ],
+            "kind": "pptx",
+            "remarks": [
+                "PowerPointベースのテンプレートになります。",
+                "「ＤＦＰ勘亭流」と「FOT-大江戸勘亭流 Std E」のフォントが使える前提でのテンプレートになっています。FOT-大江戸勘亭流 Std Eの方はダウンロードされていなくても大きくデザインが崩れないと思いますが、両方のダウンロードを推奨します。"
+            ]
+        },
+        {
+            "ID": 21,
+            "name": "譜面解析",
+            "parent_folder": 4,
+            "child_folder": [],
+            "child_item": [
+                75
+            ],
+            "kind": "analysis",
             "remarks": []
         }
     ],
@@ -857,183 +939,416 @@
         },
         {
             "ID": 46,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Toys Etude",
+            "drive_id": "1AlNlJGCrJAZ7QYx3AEt3_zPklpb1Bp02",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1127,
+                    "mean_density": 7.805
+                }
+            ]
         },
         {
             "ID": 47,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "iLLness LiLin",
+            "drive_id": "1H02uqMPgorB7c2xK-JG0SrEj0IuxYkb5",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1209,
+                    "mean_density": 10.596
+                }
+            ]
         },
         {
             "ID": 48,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "SILENT「音楽」",
+            "drive_id": "1PZHiISZ7j-JOEMdVgGCChfqYJM51iYP_",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 650,
+                    "mean_density": 4.972
+                }
+            ]
         },
         {
             "ID": 49,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Deerstalker",
+            "drive_id": "1yOdXTmThl6QXHDIksZ0A6LYY-hsqFVmg",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1146,
+                    "mean_density": 8.157
+                }
+            ]
         },
         {
             "ID": 50,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "隼(裏)",
+            "drive_id": "1Sl-96Km4DXh3BJx7OxcqBUulb3iXr_uS",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1170,
+                    "mean_density": 8.36
+                }
+            ]
         },
         {
             "ID": 51,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "竹",
+            "drive_id": "1XQdB0TBybvHaZraNOkdBCRxs7xUoe_m1",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1034,
+                    "mean_density": 7.481
+                }
+            ]
         },
         {
             "ID": 52,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "虹の向こう側へ",
+            "drive_id": "1SyI36HjwkD-acwjZry8cmhIx_mVppYgb",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 916,
+                    "mean_density": 8.582
+                }
+            ]
         },
         {
             "ID": 53,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "ρars/ey",
+            "file_name": "ρarsley",
+            "drive_id": "1WYuqEW4xKv8x8wB1qD5YUy9mzj_MbFZG",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 867,
+                    "mean_density": 7.391
+                }
+            ]
         },
         {
             "ID": 54,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "SUMMER TRIANGLE",
+            "drive_id": "1JASzbUTlo5GQaCKKc5Qe4sMX5tSVPufB",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 909,
+                    "mean_density": 7.246
+                },
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 627,
+                    "mean_density": 4.995
+                }
+            ]
         },
         {
             "ID": 55,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "望影の方舟Six",
+            "drive_id": "1XhyYbSoCD7J933ICCd0H6jgX4bibwIW_",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1106,
+                    "mean_density": 10.246
+                }
+            ]
         },
         {
             "ID": 56,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Check It Out",
+            "drive_id": "1itty9adDoqVtJ5PLzBI05wJBKiYPCIbi",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 722,
+                    "mean_density": 5.91
+                },
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 560,
+                    "mean_density": 4.582
+                }
+            ]
         },
         {
             "ID": 57,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Fracture Ray",
+            "drive_id": "1ePucfZ4sjYiHVYRH-NFVq58UX1E04gBy",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1056,
+                    "mean_density": 7.579
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 885,
+                    "mean_density": 6.351
+                }
+            ]
         },
         {
             "ID": 58,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏人段位2020 玄人",
+            "drive_id": "1ik8RdEfdfTx9XKnWjpNP3-K1LDLwQAsN",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 59,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏人段位2020 名人",
+            "drive_id": "1nhKwKS5ssdqnO01Oqm8F7ijciJRkNB4B",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 60,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏人段位2020 超人",
+            "drive_id": "1-MbaAFIvL8ZzKsFeQtuo8Ky2L_yRCyjK",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 61,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏人段位2020 達人",
+            "drive_id": "1yjz3QklUSrPZsnTeJ32o5uxbH4E-i9c5",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 62,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "段位テンプレート 配布用",
+            "drive_id": "1Y8PaVE_9PLBb6tY1C5PYMGxYd4r-HSqA",
+            "tool_info": ""
         },
         {
             "ID": 63,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "ロストゲヱム",
+            "drive_id": "1BKr4ET4bhg5G7DI6th92tBefttMS-_rT",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1264,
+                    "mean_density": 9.715
+                }
+            ]
         },
         {
             "ID": 64,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "エンドマークに希望と涙を添えて",
+            "drive_id": "1GxmWJ7-OG3fiLs9NJDrzwhMFwvHGkzf2",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1597,
+                    "mean_density": 10.038
+                }
+            ]
         },
         {
             "ID": 65,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "レンダーランド・クレーマー",
+            "drive_id": "1dIEo5FypHtqGpgv4ZDp0DycXE4bCkYT",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 904,
+                    "mean_density": 8.389
+                }
+            ]
         },
         {
             "ID": 66,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Delusion (Yume-maboroshi)",
+            "drive_id": "1dA5yGmN2YZ5MkwsuWx8Vm6S_TVSoAVZf",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 858,
+                    "mean_density": 7.38
+                }
+            ]
         },
         {
             "ID": 67,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "蒼き祈りの永久機関",
+            "drive_id": "1lO8R2hWyS2zyTEjeCOFs4PsTgpd1whRq",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1425,
+                    "mean_density": 5.926
+                }
+            ]
         },
         {
             "ID": 68,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Nintendo みまもり Switch",
+            "drive_id": "19CNmUCjZkj9lZegp8f7qV8NhZxEyxj8G",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 669,
+                    "mean_density": 3.823
+                }
+            ]
         },
         {
             "ID": 69,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "戦闘！ギラティナ",
+            "drive_id": "1AWLeEqKNroBJ0jYZ-H45Nfebg_P6PgKC",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1027,
+                    "mean_density": 8.409
+                }
+            ]
         },
         {
             "ID": 70,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Unbelief",
+            "drive_id": "1rPRGmSt8M4lRdvp9dDi6_NdQIquktXX6",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 756,
+                    "mean_density": 6.636
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 876,
+                    "mean_density": 7.69
+                }
+            ]
         },
         {
             "ID": 71,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Everlasting Message",
+            "drive_id": "1sACLzKeta5__7DDAr0TyM5N4RCF3mXsk",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1079,
+                    "mean_density": 9.291
+                }
+            ]
         },
         {
             "ID": 72,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Vanity on the future",
+            "drive_id": "1vflMqSiGXf2IgC6IeW2ISqi6nrkgrsfN",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 857,
+                    "mean_density": 7.137
+                },
+                {
+                    "course": 2,
+                    "star": 7,
+                    "combo": 563,
+                    "mean_density": 4.685
+                },
+                {
+                    "course": 1,
+                    "star": 5,
+                    "combo": 343,
+                    "mean_density": 2.887
+                },
+                {
+                    "course": 0,
+                    "star": 4,
+                    "combo": 208,
+                    "mean_density": 1.748
+                }
+            ]
         },
         {
             "ID": 73,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "HEAVENZΔ",
+            "drive_id": "1EEVbO84RAibrS-rRc1hz3Sx7xHwLP75Z",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1055,
+                    "mean_density": 9.369
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 774,
+                    "mean_density": 6.871
+                }
+            ]
         },
         {
             "ID": 74,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "この世の終わりみたいなインスタの投稿",
+            "drive_id": "17x9RlRiE17vkW_Y7bXR6vKcgK146hmaW",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 254,
+                    "mean_density": 4.75
+                }
+            ]
         },
         {
             "ID": 75,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "彁",
+            "drive_id": "12P65Y__SP4HHW3oOEeTqp9NQ0wqvz6po",
+            "tool_info": ""
         },
         {
             "ID": 76,
@@ -3645,7 +3960,7 @@
         }
     ],
     "Information": {
-        "max_folder_ID": 17,
+        "max_folder_ID": 21,
         "max_item_ID": 504,
         "course_name": [
             "かんたん",
@@ -3658,7 +3973,7 @@
             "score": "zip",
             "danni": "zip",
             "pptx": "pptx",
-            "analysis": "pdf"
+            "analysis": "zip"
         }
     }
 }
