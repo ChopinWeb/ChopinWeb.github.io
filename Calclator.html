@@ -16,6 +16,7 @@
         <nav class="header_nav">
           <ul>
             <li><a href="./Calclator.html">平均密度計算機</a></li>
+            <li><a href="./CreatorTool.html">譜面制作用ツール</a></li>
             <li><a href="./Database.html">コンテンツ保管庫</a></li>
             <li><a href="./Contact.html">お問い合わせ</a></li>
           </ul>
@@ -27,7 +28,7 @@
 	    <div class="mini_title">計算対象</div>
 	    <p>「ファイル」の項目でファイルを選択するか、「TJAコード」の項目にTJAファイルの内容をコピペしてください。（どちらも入力されている場合は「ファイル」の項目の内容が優先されます。</p>
 	    <label>ファイル　：<input type="file" accept=".tja" id="TJAFile"></label><br>
-	    <label>TJAコード：<textarea cols="40" row="5" id="TJATextarea"></textarea></label><br><br>
+	    <label>TJAコード：<textarea cols="40" rows="2" id="TJATextarea"></textarea></label><br><br>
 
 	    <div class="mini_title">計算エリア</div>
 	    <p>入力したファイル・TJAコードのどのエリアの平均密度を計算するか入力してください。</p>
@@ -41,10 +42,10 @@
 	      <option value="Easy">かんたん</option>
 	    </select></label><br>
         <label>区間　　　：<input type="text" size="10" id="StartMeasure" value="最初"></label>小節目から<input type="text" size="10" id="EndMeasure" value="最後">小節目まで</label><br><br><br>
-        <input type="button" align="center" value="計算する" id="calcButton" class="calcButton"><br><br>
+        <input type="button" align="center" value="計算する" id="calcButton" class="execButton"><br><br>
      
         <div class="mini_title">計算結果</div>
-        <div id="result" class="result_box"></div>
+        <div id="result" class="response_box"></div>
 	    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	    <script src="./js/header_menu.js"></script>
         <script src="./js/Calclator.js"></script>    
@@ -60,6 +61,7 @@
 	        <ul>
               <li><a href="./index.html">ホーム</a></li>
               <li><a href="./Calclator.html">平均密度計算機</a></li>
+              <li><a href="./CreatorTool.html">譜面制作用ツール</a></li>
             </ul>
             <ul>
               <li><a href="./Database.html">コンテンツ保管庫</a></li>

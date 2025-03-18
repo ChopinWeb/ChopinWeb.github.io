@@ -282,14 +282,14 @@ main {
 }
 
 /* 計算ボタン */
-.calcButton {
+.execButton {
     font-size: x-large;
     line-height: 30px;
     background-color: #87cefa;
 }
 
 /* 結果表示ボックス */
-.result_box {
+.response_box {
     width: 100%;
     height: 16em;
     background-color: white;
