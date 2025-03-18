@@ -54,19 +54,24 @@
             "parent_folder": 0,
             "child_folder": [],
             "child_item": [
+                133,
                 103,
-                104
+                104,
+                132,
+                130,
+                131
             ],
             "kind": "score",
             "remarks": []
         },
         {
             "ID": 4,
-            "name": "便利ツール",
+            "name": "その他",
             "parent_folder": 0,
             "child_folder": [
                 20,
-                21
+                21,
+                27
             ],
             "remarks": []
         },
@@ -415,8 +420,33 @@
             "name": "AC非収録曲段位ver.1",
             "parent_folder": 25,
             "child_folder": [],
-            "child_item": [],
+            "child_item": [
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+            ],
             "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 27,
+            "name": "便利ツール",
+            "parent_folder": 4,
+            "child_folder": [],
+            "child_item": [
+                134
+            ],
+            "kind": "tool",
             "remarks": []
         }
     ],
@@ -1972,111 +2002,191 @@
         },
         {
             "ID": 117,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 初段",
+            "drive_id": "1ViwouJU371YrnE8wiXva4tVnmYcNQI_6",
+            "danni_order": 1,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 118,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 二段",
+            "drive_id": "1ZTTMQd5yEd8G7G9SYPxU-nPJFbAb-L26",
+            "danni_order": 2,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 119,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 三段",
+            "drive_id": "1ANrwIbwdW7I-CPH7_GlkM32O_SgWlfJ5",
+            "danni_order": 3,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 120,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 四段",
+            "drive_id": "1QurrmyMAGWCZTgWS7LlC24uhx5O2PGtV",
+            "danni_order": 4,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 121,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 五段",
+            "drive_id": "1nqHhGsO9FuyJqCkwKhhvQcIlw4JgYogB",
+            "danni_order": 5,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 122,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 六段",
+            "drive_id": "1Eiatxnokh6wmsAi7pybdY3k2_l3k-oqV",
+            "danni_order": 6,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 123,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 七段",
+            "drive_id": "1sC3x6pSREe-sO7ZaI-9P_x4mVLN51019",
+            "danni_order": 7,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 124,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 八段",
+            "drive_id": "1eTJjmLkR0kjwfHLxngQ4K-1jL6FS_CCP",
+            "danni_order": 8,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 125,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 九段",
+            "drive_id": "1ihMhe1vNrBO52QVmDJ16S5T7NFgPdCJ9",
+            "danni_order": 9,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 126,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 十段",
+            "drive_id": "1KKuxrNPr3_PCO7CN3k7fAPW5vjqDXDKg",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 127,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 玄人",
+            "drive_id": "1XeUsbPlB5pATW8pHRJh79Fj-93raS_Wn",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 128,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 名人",
+            "drive_id": "1ksSow9oRAbgi4IdCtYHtk6TEKbnTQSqM",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 129,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.1 超人",
+            "drive_id": "1npt9qdhcNBXHtv_CFlrP0fZgfcsQb9no",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 130,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "ドクターXのテーマ",
+            "drive_id": "1uLevKV42RKFBfGIcP8UcJjiQESioAxhV",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 637,
+                    "mean_density": 4.18
+                }
+            ]
         },
         {
             "ID": 131,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "冒険者たち",
+            "drive_id": "11un6BHWU0ljDMotNI5yvCMq8lWfxytqa",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 692,
+                    "mean_density": 5.76
+                }
+            ]
         },
         {
             "ID": 132,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "イマジネーション",
+            "drive_id": "1gyydtLNDPT81e0o9N2qQlKtgoD2eIyPo",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 481,
+                    "mean_density": 5.75
+                }
+            ]
         },
         {
             "ID": 133,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "〆ドレー2000＋",
+            "drive_id": "1SjDE8qPv4ZaKRQgy-0GW6NpYJi32P0Oi",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1414,
+                    "mean_density": 8.29
+                }
+            ]
         },
         {
             "ID": 134,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "加減速ソフラン生成機",
+            "drive_id": "1NBBqar4RJm9J3b470yDfTpW29Ex-Q-F4",
+            "tool_info": ""
         },
         {
             "ID": 135,
@@ -4334,7 +4444,7 @@
         }
     ],
     "Information": {
-        "max_folder_ID": 26,
+        "max_folder_ID": 27,
         "max_item_ID": 504,
         "course_name": [
             "かんたん",
@@ -4347,7 +4457,8 @@
             "score": "zip",
             "danni": "zip",
             "pptx": "pptx",
-            "analysis": "zip"
+            "analysis": "zip",
+            "tool": "zip"
         }
     }
 }
