@@ -188,6 +188,7 @@
                 88,
                 204,
                 28,
+                506,
                 67,
                 44
             ],
@@ -5411,11 +5412,24 @@
                     "mean_density": 7.158
                 }
             ]
+        },
+        {
+            "ID": 506,
+            "name": "灰かぶり姫は舞踏会の夢を見る",
+            "drive_id": "1P7ylW1vtA9W2nZvU4-Da54KAWpBszP7h",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 813,
+                    "mean_density": 7.903
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 34,
-        "max_item_ID": 505,
+        "max_item_ID": 506,
         "course_name": [
             "かんたん",
             "ふつう",
