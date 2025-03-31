@@ -61,19 +61,6 @@
                 43,
                 44
             ],
-            "child_item": [
-                269,
-                133,
-                103,
-                104,
-                132,
-                130,
-                322,
-                323,
-                131,
-                268
-            ],
-            "kind": "score",
             "remarks": []
         },
         {
@@ -874,7 +861,14 @@
             "name": "本家譜面（おに譜面のみ）",
             "parent_folder": 3,
             "child_folder": [],
-            "child_item": [],
+            "child_item": [
+                133,
+                103,
+                104,
+                132,
+                130,
+                131
+			],
             "kind": "score",
             "remarks": []
         },
@@ -883,7 +877,12 @@
             "name": "本家譜面（全難易度）",
             "parent_folder": 3,
             "child_folder": [],
-            "child_item": [],
+            "child_item": [
+			    269,
+                322,
+                323,
+                268
+			],
             "kind": "score",
             "remarks": []
         }
