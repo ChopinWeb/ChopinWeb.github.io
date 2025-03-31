@@ -46,7 +46,8 @@
                 28,
                 30,
                 32,
-                34
+                34,
+                39
             ],
             "remarks": [
                 "譜面ファイルとスキンファイルの2つに分かれているので、それらの中身を1つの同じフォルダに入れてご利用ください。"
@@ -56,14 +57,21 @@
             "ID": 3,
             "name": "本家譜面",
             "parent_folder": 0,
-            "child_folder": [],
+            "child_folder": [
+                43,
+                44
+            ],
             "child_item": [
+                269,
                 133,
                 103,
                 104,
                 132,
                 130,
-                131
+                322,
+                323,
+                131,
+                268
             ],
             "kind": "score",
             "remarks": []
@@ -84,7 +92,7 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
-                501
+                369
             ],
             "kind": "score",
             "remarks": []
@@ -100,8 +108,10 @@
                 56,
                 111,
                 189,
+                366,
                 203,
-                155
+                155,
+                299
             ],
             "kind": "score",
             "remarks": []
@@ -113,17 +123,23 @@
             "child_folder": [],
             "child_item": [
                 99,
+                301,
                 7,
+                363,
+                324,
                 232,
                 200,
                 54,
+                261,
+                358,
                 72,
                 143,
                 98,
-                502,
+                370,
                 179,
                 135,
                 106,
+                299,
                 141,
                 182
             ],
@@ -142,17 +158,20 @@
                 66,
                 86,
                 211,
-                501,
+                357,
+                369,
                 202,
                 40,
+                313,
                 112,
                 10,
                 255,
-                505,
+                378,
                 13,
                 77,
                 110,
-                503,
+                371,
+                365,
                 50,
                 188
             ],
@@ -165,22 +184,32 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
+                314,
                 193,
                 2,
                 97,
+                262,
+                303,
                 49,
                 145,
                 206,
+                360,
+                315,
+                339,
                 4,
+                263,
                 3,
                 8,
                 144,
                 48,
                 253,
+                366,
                 70,
+                319,
                 213,
                 41,
                 234,
+                264,
                 203,
                 37,
                 181,
@@ -188,9 +217,11 @@
                 88,
                 204,
                 28,
-                506,
+                342,
+                379,
                 67,
-                44
+                44,
+                364
             ],
             "kind": "score",
             "remarks": []
@@ -203,10 +234,13 @@
             "child_item": [
                 27,
                 91,
+                298,
                 96,
                 134,
                 71,
                 57,
+                324,
+                306,
                 186,
                 139,
                 105,
@@ -214,17 +248,22 @@
                 45,
                 151,
                 26,
+                317,
+                283,
                 54,
                 176,
                 153,
                 5,
                 87,
+                267,
                 212,
                 46,
+                300,
                 70,
                 116,
                 80,
-                504,
+                362,
+                377,
                 89,
                 178,
                 65,
@@ -250,6 +289,7 @@
             "child_item": [
                 137,
                 29,
+                301,
                 30,
                 192,
                 250,
@@ -257,9 +297,12 @@
                 32,
                 249,
                 31,
+                340,
+                305,
                 184,
                 15,
                 17,
+                318,
                 76,
                 70,
                 92,
@@ -272,20 +315,25 @@
                 152,
                 180,
                 64,
+                341,
                 20,
                 9,
                 155,
                 158,
                 177,
                 33,
+                265,
                 63,
                 43,
                 113,
                 55,
+                368,
                 110,
-                503,
+                371,
                 51,
-                233
+                233,
+                361,
+                367
             ],
             "kind": "score",
             "remarks": []
@@ -304,25 +352,33 @@
                 1,
                 138,
                 96,
+                304,
+                303,
                 34,
                 134,
                 57,
                 156,
                 18,
                 36,
+                321,
                 144,
                 35,
+                359,
                 109,
                 6,
+                320,
+                319,
                 41,
                 11,
                 47,
+                302,
                 254,
+                362,
                 93,
                 183,
                 152,
                 185,
-                502,
+                370,
                 38,
                 16,
                 141,
@@ -383,7 +439,10 @@
             "child_folder": [
                 17,
                 23,
-                31
+                31,
+                35,
+                38,
+                42
             ],
             "remarks": []
         },
@@ -408,7 +467,9 @@
             "parent_folder": 2,
             "child_folder": [
                 19,
-                27
+                27,
+                37,
+                41
             ],
             "remarks": []
         },
@@ -446,6 +507,9 @@
             "parent_folder": 4,
             "child_folder": [],
             "child_item": [
+                307,
+                266,
+                316,
                 75,
                 208
             ],
@@ -498,7 +562,8 @@
             "name": "AC非収録曲段位",
             "parent_folder": 2,
             "child_folder": [
-                26
+                26,
+                36
             ],
             "remarks": []
         },
@@ -653,6 +718,173 @@
                 248
             ],
             "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 35,
+            "name": "トパーズver.",
+            "parent_folder": 16,
+            "child_folder": [],
+            "child_item": [
+                256,
+                257,
+                258,
+                259,
+                260
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 36,
+            "name": "AC非収録曲段位ver.2",
+            "parent_folder": 25,
+            "child_folder": [],
+            "child_item": [
+                270,
+                271,
+                272,
+                273,
+                274,
+                275,
+                276,
+                277,
+                278,
+                279,
+                280,
+                281,
+                282
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 37,
+            "name": "裏段位2023",
+            "parent_folder": 18,
+            "child_folder": [],
+            "child_item": [
+                284,
+                285,
+                286,
+                287,
+                288,
+                289,
+                290,
+                291,
+                292,
+                293,
+                294,
+                295,
+                296,
+                297
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 38,
+            "name": "サファイアver.",
+            "parent_folder": 16,
+            "child_folder": [],
+            "child_item": [
+                308,
+                309,
+                310,
+                311,
+                312
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 39,
+            "name": "1.25倍速段位",
+            "parent_folder": 2,
+            "child_folder": [
+                40
+            ],
+            "remarks": []
+        },
+        {
+            "ID": 40,
+            "name": "1.25倍速段位ver.1",
+            "parent_folder": 39,
+            "child_folder": [],
+            "child_item": [
+                325,
+                326,
+                327,
+                328,
+                329,
+                330,
+                331,
+                332,
+                333,
+                334,
+                335,
+                336,
+                337,
+                338
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 41,
+            "name": "裏段位2024",
+            "parent_folder": 18,
+            "child_folder": [],
+            "child_item": [
+                343,
+                344,
+                345,
+                346,
+                347,
+                348,
+                349,
+                350,
+                351,
+                352,
+                353,
+                354,
+                355,
+                356
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 42,
+            "name": "エメラルドver.",
+            "parent_folder": 16,
+            "child_folder": [],
+            "child_item": [
+                372,
+                373,
+                374,
+                375,
+                376
+            ],
+            "kind": "danni",
+            "remarks": []
+        },
+        {
+            "ID": 43,
+            "name": "本家譜面（おに譜面のみ）",
+            "parent_folder": 3,
+            "child_folder": [],
+            "child_item": [],
+            "kind": "score",
+            "remarks": []
+        },
+        {
+            "ID": 44,
+            "name": "本家譜面（全難易度）",
+            "parent_folder": 3,
+            "child_folder": [],
+            "child_item": [],
+            "kind": "score",
             "remarks": []
         }
     ],
@@ -3862,1476 +4094,1379 @@
         },
         {
             "ID": 256,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "トパーズver. 十段",
+            "drive_id": "1L7ewJ07EFcPdtD_wJY9pKSKDe7l-JCvY",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 257,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "トパーズver. 玄人",
+            "drive_id": "1qMuzzyB7_dfsjkXuCqfgvRHfKncAa70_",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 258,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "トパーズver. 名人",
+            "drive_id": "1sSD6N9WNmGOhtXI7SQtXzLkqGfoBarL",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 259,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "トパーズver. 超人",
+            "drive_id": "1jxqZGbHIHb5duuEiIG6wlZAdcbngycoQ",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 260,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "トパーズver. 達人",
+            "drive_id": "1KTsLftSliio_nyYDEs20HVgqtlO-TJHA",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 261,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "SUPERNONIC",
+            "drive_id": "1ukEMR2dF5R-W_YBlRVbtIfb0tQVOinbr",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 770,
+                    "mean_density": 7.065
+                }
+            ]
         },
         {
             "ID": 262,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Contrapasso -inferno-",
+            "drive_id": "1vC_q0WyGNUuTW13s9ZzJd5HBtGiSfFvW",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 966,
+                    "mean_density": 7.184
+                }
+            ]
         },
         {
             "ID": 263,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Leviathan(裏)",
+            "drive_id": "113N1SOpjscvubDFPd8YG3z85oABtPY8Y",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 922,
+                    "mean_density": 7.397
+                }
+            ]
         },
         {
             "ID": 264,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "エンドロールが終わっても",
+            "drive_id": "116B-rZ_2shQutfPseS5unRQVWqfSpkIL",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 800,
+                    "mean_density": 6.93
+                }
+            ]
         },
         {
             "ID": 265,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "ヤミナベ!!!!",
+            "drive_id": "14nwns57wqRX5T_Y9__YL28w33-OcVNe-",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1122,
+                    "mean_density": 8.864
+                }
+            ]
         },
         {
             "ID": 266,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Destination 2F29",
+            "drive_id": "1mV8wV_Wt67hI6cAAHbLA3-2CVRPwo3Mh",
+            "tool_info": ""
         },
         {
             "ID": 267,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "The Magician's Dream(裏)",
+            "drive_id": "1i6nH42Gp3-kGguV8DRlqEn2RsUajN0xT",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1064,
+                    "mean_density": 9.296
+                }
+            ]
         },
         {
             "ID": 268,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "音虫を響かせろ！",
+            "drive_id": "1TFaoX6yxUg9OACc8WQglRR3IreGfAt3A",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 582,
+                    "mean_density": 6.01
+                },
+                {
+                    "course": 2,
+                    "star": 6,
+                    "combo": 392,
+                    "mean_density": 4.048
+                },
+                {
+                    "course": 1,
+                    "star": 5,
+                    "combo": 211,
+                    "mean_density": 2.174
+                },
+                {
+                    "course": 0,
+                    "star": 3,
+                    "combo": 116,
+                    "mean_density": 1.193
+                }
+            ]
         },
         {
             "ID": 269,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "ESCAPE FROM CRISIS",
+            "drive_id": "16shzbgsfB26M0ffZkPrkKfLS-GCj6KsF",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1167,
+                    "mean_density": 8.399
+                },
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 765,
+                    "mean_density": 5.503
+                },
+                {
+                    "course": 2,
+                    "star": 6,
+                    "combo": 536,
+                    "mean_density": 3.863
+                },
+                {
+                    "course": 1,
+                    "star": 6,
+                    "combo": 413,
+                    "mean_density": 2.975
+                },
+                {
+                    "course": 0,
+                    "star": 5,
+                    "combo": 247,
+                    "mean_density": 1.776
+                }
+            ]
         },
         {
             "ID": 270,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 初段",
+            "drive_id": "16FJqTADD1Be4Pnd-9zuAVa14Bls_I0Qo",
+            "danni_order": 1,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 271,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 二段",
+            "drive_id": "1gK5imyXeuFlVmRQ5TY71HoNFipsbE-Wz",
+            "danni_order": 2,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 272,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 三段",
+            "drive_id": "1c92iIzi2XPYTSnOCI_TdVVGIVcFgIAuY",
+            "danni_order": 3,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 273,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 四段",
+            "drive_id": "1RR5cBYgL2Qj_5HgSnsGqAvdFuubYFRmR",
+            "danni_order": 4,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 274,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 五段",
+            "drive_id": "1sj-mZ84hBUN_JCbb16tiNIz9sZFCzLEz",
+            "danni_order": 5,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 275,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 六段",
+            "drive_id": "1yLeJzTArHNhv_xBJvLSQJ570R_UJq3F7",
+            "danni_order": 6,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 276,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 七段",
+            "drive_id": "18_Xkh7xIAxiQWAGPN20Dmy3Rq1bjDQCi",
+            "danni_order": 7,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 277,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 八段",
+            "drive_id": "1cAZEEk8pA5JHBiBTRM2h632vaE3qxCwO",
+            "danni_order": 8,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 278,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 九段",
+            "drive_id": "1Kt3YLjsWCvz3NNOsG22m8wTmmLr7Zdvf",
+            "danni_order": 9,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 279,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 十段",
+            "drive_id": "1aOfElwTlA0l5q9tEkA8w3AnqGCBqZFHX",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 280,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 玄人",
+            "drive_id": "1Z1TGlrYtSQSdhybNwV139VIR32nXJLW0",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 281,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 名人",
+            "drive_id": "1SBLHVNLtqPgZnlCZ4xv33ifrSLOZsnUH",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 282,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "AC非収録曲段位ver.2 超人",
+            "drive_id": "11FYzqQo4MHCWEUdgXeBnuuShh7-Se6G0",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 283,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Re：End of a Dream(裏)",
+            "drive_id": "1erWDhPlqiaIWhUiIP4esA-J9yhAk6b3h",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1046,
+                    "mean_density": 7.496
+                }
+            ]
         },
         {
             "ID": 284,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 初段",
+            "drive_id": "1sp4_i5Ah-6WyjV0Ai8FA84GCM_z2HbY5",
+            "danni_order": 1,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 285,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 二段",
+            "drive_id": "1B9c1MlXIlyYdTCyNcmhOId28KFueOMBR",
+            "danni_order": 2,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 286,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 三段",
+            "drive_id": "16b3eWvWm1Kas8g7LEguQJj4OKmpl_5wI",
+            "danni_order": 3,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 287,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 四段",
+            "drive_id": "1AV7OQkd4XCee1ARcxsJcHdjiAmX_rVuJ",
+            "danni_order": 4,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 288,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 五段",
+            "drive_id": "1XooCnyB-b01hVZ-7VBx08JbOQmBcw5HD",
+            "danni_order": 5,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 289,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 六段",
+            "drive_id": "16l4FIPP2lYeNA91TBwwasOIga7VFjNZi",
+            "danni_order": 6,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 290,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 七段",
+            "drive_id": "1glz4ibauBte-7zO3oJTv2A-CcfVgGKyg",
+            "danni_order": 7,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 291,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 八段",
+            "drive_id": "1vCzxUTelF3dPp4m7dFTVINx9RspphrCv",
+            "danni_order": 8,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 292,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 九段",
+            "drive_id": "1CCRiNrDtwWcjF6OuifzMz0kbwH98dsuv",
+            "danni_order": 9,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 293,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 十段",
+            "drive_id": "1ajP91TQ6XOZ4q-r73hmTa8ejL5HV8471",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 294,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 玄人",
+            "drive_id": "1r53WI6YGQgQ1jWvU6aSf0hFpdaAbhxj3",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 295,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 名人",
+            "drive_id": "1ETdoRWS4L8l_exYVUWuakaWzS0GR4ZNx",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 296,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 超人",
+            "drive_id": "1MjTRGj0hpYczh8qoRiGtapebsbXUHf6F",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 297,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2023 達人",
+            "drive_id": "1Kgm421yk3PJ5vtXBQIdSOWJ_HNtXvXsE",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 298,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Caramel Custard",
+            "drive_id": "1v_D9NBe2Oay8DjVqSDaToj86Puo2mr4I",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 796,
+                    "mean_density": 6.836
+                }
+            ]
         },
         {
             "ID": 299,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "散り散り",
+            "drive_id": "1aFQM10tEavd0KIiKcYm9Ux9hvcen-3GM",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 9,
+                    "combo": 788,
+                    "mean_density": 7.742
+                },
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 585,
+                    "mean_density": 5.768
+                }
+            ]
         },
         {
             "ID": 300,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "TwisteD! XD",
+            "drive_id": "1acRiss8zNpuIZyl3xfTdXX-I9ou5neM",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 981,
+                    "mean_density": 8.172
+                }
+            ]
         },
         {
             "ID": 301,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Bad Elixir",
+            "drive_id": "1CJx8Q-KWUpgoxJULgNuZxKfj0IsR4qY-",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1054,
+                    "mean_density": 8.402
+                },
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 711,
+                    "mean_density": 5.665
+                }
+            ]
         },
         {
             "ID": 302,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "silly-willy-nilly",
+            "drive_id": "1yeq5gEdmKD5SJTBH0ACAoMc-jwOLGLaf",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1305,
+                    "mean_density": 9.463
+                }
+            ]
         },
         {
             "ID": 303,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Deadly force",
+            "drive_id": "1lWRfUXRlpGoNzNUR44J1AjPENAFVW9Do",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1144,
+                    "mean_density": 10.438
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 827,
+                    "mean_density": 7.889
+                }
+            ]
         },
         {
             "ID": 304,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "DESTRUCTION 3,2,1",
+            "drive_id": "1NVec3hl9NrJP1vOVB1moqeuyi6f-kOsq",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1469,
+                    "mean_density": 9.449
+                }
+            ]
         },
         {
             "ID": 305,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Nosferatu(裏)",
+            "drive_id": "1R5zudKsZsZDanfy8CFT95lQY_2hbREAP",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1356,
+                    "mean_density": 9.436
+                }
+            ]
         },
         {
             "ID": 306,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "GORI × GORI × SafaRI(裏)",
+            "drive_id": "1wm9RjOmfHNcMTFyMCpESxQ3OIF71UMQR",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1018,
+                    "mean_density": 7.173
+                }
+            ]
         },
         {
             "ID": 307,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "23時54分、陽の旅路へのプレリュード(裏)",
+            "drive_id": "1FoNERO-NOX2VkqFB-pxy-9CU802FnDjJ",
+            "tool_info": ""
         },
         {
             "ID": 308,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "サファイアver. 十段",
+            "drive_id": "1BY-pMZsUtFILmKfpbcS0HFmJxZKKWV0-",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 309,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "サファイアver. 玄人",
+            "drive_id": "1HxwalycuG-DM-hHVaXBtQgennyxrrHrg",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 310,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "サファイアver. 名人",
+            "drive_id": "1mJ8WKszG42_Mjto9yrq2gHlGyFIeULaG",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 311,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "サファイアver. 超人",
+            "drive_id": "1BsoKv7udTzwu-20DZXf838a0U4kNw9ta",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 312,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "サファイアver. 達人",
+            "drive_id": "1rLmNfQIOy_cqm1jfwH8_fG8H0SLzkB-p",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 313,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "そこ退けそこ退け逢魔が通る",
+            "drive_id": "1cP414QypVPPIMU3uPJfXe0K4JuRD9L94",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 813,
+                    "mean_density": 6.597
+                }
+            ]
         },
         {
             "ID": 314,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "#1f1e33",
+            "drive_id": "1uVgRl0NXcj4dUp-PuCuVEk4z3hOPOwQS",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1188,
+                    "mean_density": 7.611
+                }
+            ]
         },
         {
             "ID": 315,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Ever After Story",
+            "drive_id": "1fpXKsMethCXycsz63BMNgTHGaAsuYopZ",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1047,
+                    "mean_density": 7.617
+                }
+            ]
         },
         {
             "ID": 316,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "とける(裏)",
+            "drive_id": "1AMr2n7SdnMh2lPNKqCdcT-FEe7DcVQFm",
+            "tool_info": ""
         },
         {
             "ID": 317,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Outlaw's Lullaby",
+            "drive_id": "1Qr-aDwQ5v0VWWHB-fwON_1-W8pYAExpr",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 737,
+                    "mean_density": 6.93
+                }
+            ]
         },
         {
             "ID": 318,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "RE:UNION -Duo Blade Against-",
+            "drive_id": "1kv12FfSi84NWpCTjqUCyrHGuYWVLbFp0",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1000,
+                    "mean_density": 7.618
+                }
+            ]
         },
         {
             "ID": 319,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "VVelcome!!",
+            "drive_id": "1cpaEM9MYgWnOFlTJPUurI8BpL_GifQjf",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1100,
+                    "mean_density": 9.546
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 733,
+                    "mean_density": 6.358
+                }
+            ]
         },
         {
             "ID": 320,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Treading an Effervescent Surface",
+            "drive_id": "1fL25lBFLnRqem4ui3cazgg9npqbnvEAr",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1000,
+                    "mean_density": 8.709
+                }
+            ]
         },
         {
             "ID": 321,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Pictured as Perfect",
+            "drive_id": "1TU22udkM5XB_rUuYNK0TKINgdd88OPh0",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1190,
+                    "mean_density": 8.266
+                }
+            ]
         },
         {
             "ID": 322,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "ホロメン音頭",
+            "drive_id": "1Z5pp5olG2Sd1XlmkIH-6L7CS6cqAI3kg",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 6,
+                    "combo": 360,
+                    "mean_density": 3.804
+                },
+                {
+                    "course": 2,
+                    "star": 5,
+                    "combo": 221,
+                    "mean_density": 2.386
+                },
+                {
+                    "course": 1,
+                    "star": 3,
+                    "combo": 122,
+                    "mean_density": 1.326
+                },
+                {
+                    "course": 0,
+                    "star": 2,
+                    "combo": 85,
+                    "mean_density": 0.921
+                }
+            ]
         },
         {
             "ID": 323,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "令・和太鼓",
+            "drive_id": "15DM_57Oph978RHoKg3jqnpQqjAlQlTqn",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 629,
+                    "mean_density": 4.667
+                },
+                {
+                    "course": 2,
+                    "star": 7,
+                    "combo": 431,
+                    "mean_density": 3.195
+                },
+                {
+                    "course": 1,
+                    "star": 4,
+                    "combo": 218,
+                    "mean_density": 1.612
+                },
+                {
+                    "course": 0,
+                    "star": 4,
+                    "combo": 105,
+                    "mean_density": 0.773
+                }
+            ]
         },
         {
             "ID": 324,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "GIGALODOON",
+            "drive_id": "1DVb4zvI_bvAB63Yyl30CPzTMVlxZDnP9",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1110,
+                    "mean_density": 8.273
+                },
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 817,
+                    "mean_density": 6.087
+                }
+            ]
         },
         {
             "ID": 325,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 初段",
+            "drive_id": "1LV3hB4ag4Kom_uzD8ubkx4XmjPWK3Foz",
+            "danni_order": 1,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 326,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 二段",
+            "drive_id": "1syddCOM6Kw4pxfrKJ727tqCPxvsWgTaj",
+            "danni_order": 2,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 327,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 三段",
+            "drive_id": "1ERuPj2BA7Q9R7Ezf4pWTgz2q_gKcZLpp",
+            "danni_order": 3,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 328,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 四段",
+            "drive_id": "1NbTcZMcHenfFq3FUi7IACYz7mWuCi0DT",
+            "danni_order": 4,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 329,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 五段",
+            "drive_id": "1zDnGYC99o5A_1x2nYJ7szCAK89dRTxbp",
+            "danni_order": 5,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 330,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 六段",
+            "drive_id": "1KbURsXVtYGrtxZcw53khvsIIUlvCHcO_",
+            "danni_order": 6,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 331,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 七段",
+            "drive_id": "1-ux-4lqaIZ-sbZnIpbL18muCiMIOsyWv",
+            "danni_order": 7,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 332,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 八段",
+            "drive_id": "1s3YB9PqkkSj6T9ERyJrytr8VRFrRDlDU",
+            "danni_order": 8,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 333,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 九段",
+            "drive_id": "12zkIX7SyxrkqvHOrWzA-4xcmAI1WFvkS",
+            "danni_order": 9,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 334,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 十段",
+            "drive_id": "1gRCYIqj5q7chYXbEurhtCZQZ_S-AlbhQ",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 335,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 玄人",
+            "drive_id": "1qZVxBgy1x0siHh48Q5WLoHyg5BZ29zAk",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 336,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 名人",
+            "drive_id": "1_UA7FLEUKZKm4KzGaHnbpjuHhpkINA59",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 337,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 超人",
+            "drive_id": "1XRugNN4z8A0bciatbLKR7hxHZlhacSA1",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 338,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "1.25倍速段位ver.1 達人",
+            "drive_id": "1RDjyNIAOMPEEYHHZ4Ot5FLeV8nmYKrz5",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 339,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Irregular Clock(裏)",
+            "drive_id": "1hx7m-YzpKR6FONER7Bq13Q09rQBXY3Gu",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 969,
+                    "mean_density": 7.108
+                }
+            ]
         },
         {
             "ID": 340,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Mistilteinn",
+            "drive_id": "1L6_RXyF8tuJRqSelRhwHA04k-kmCGcBs",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1033,
+                    "mean_density": 7.991
+                }
+            ]
         },
         {
             "ID": 341,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "オペレート・ミー(裏)",
+            "drive_id": "1z5WDaRI3uH8MikNV7GZqcRHCoWIxB5or",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1010,
+                    "mean_density": 6.742
+                }
+            ]
         },
         {
             "ID": 342,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "潮騒205号SSS線",
+            "drive_id": "17zft3aArM-RPLwDI9pjBR75GGg9MDUw6",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1036,
+                    "mean_density": 7.633
+                }
+            ]
         },
         {
             "ID": 343,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 初段",
+            "drive_id": "1OG9NjcxRRp-aApiWXE4QdcKxPxKJ2d-a",
+            "danni_order": 1,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 344,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 二段",
+            "drive_id": "14WBXfQ-89FWu0UPW_V1ogw13_od8gDKx",
+            "danni_order": 2,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 345,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 三段",
+            "drive_id": "1faOA1wYyziVTtXXoiInO2r2vXVPCAEM2",
+            "danni_order": 3,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 346,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 四段",
+            "drive_id": "17ajusr6dWM58JtZVexrSq7dILkY7QvJG",
+            "danni_order": 4,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 347,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 五段",
+            "drive_id": "1eNT3n4oAP-3y6ATEC4MWBucntCQMngwk",
+            "danni_order": 5,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 348,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 六段",
+            "drive_id": "1HzJHxWqsLy5AW1lPT6lmNvdCRTzq09UV",
+            "danni_order": 6,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 349,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 七段",
+            "drive_id": "1efUxiAxX1IZjV2wDsmEUGt6rPeKBiTW6",
+            "danni_order": 7,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 350,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 八段",
+            "drive_id": "1aimSfWWIx7LWbxC84KRuOweFjIlRxsjV",
+            "danni_order": 8,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 351,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 九段",
+            "drive_id": "1vklS8xKkN0yudfeaqE9zMzLwaO2mo8h2",
+            "danni_order": 9,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 352,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 十段",
+            "drive_id": "1DWKz1U7DLlxkMVf9S_ai00pqTcNoRfoC",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 353,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 玄人",
+            "drive_id": "1YR6DxCBSzVfoYXuar5QG-7xhiUlU4-yg",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 354,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 名人",
+            "drive_id": "1QsmxUbpQfIaFPQT2XO_mCuj-_Raa-cCa",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 355,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 超人",
+            "drive_id": "141zOKzPUfuEgEYsIbCN9skfWavUeP1KX",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 356,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "裏段位2024 達人",
+            "drive_id": "16roQ11KjlqKwN8qVLCeIlrshZPhen9I_",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         },
         {
             "ID": 357,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Ka.Ma.Se",
+            "drive_id": "1AA9Cid3_mNjsxWPt-uUYIllU7jE8E7n0",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 787,
+                    "mean_density": 7.233
+                }
+            ]
         },
         {
             "ID": 358,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Singularity Game",
+            "drive_id": "1rSOa-P4_SexWneurOHk_iNiyRHoFV0uV",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 748,
+                    "mean_density": 6.485
+                }
+            ]
         },
         {
             "ID": 359,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "RAGING FIRE",
+            "drive_id": "1rf7N1IHotV0_gLq9n1zc_jXAr1d-DT1Z",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 959,
+                    "mean_density": 8.316
+                }
+            ]
         },
         {
             "ID": 360,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "EXRiXiS",
+            "drive_id": "1Dn7l0xHVGhxoAvzAosOdQUikrV9NkoKu",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 882,
+                    "mean_density": 7.342
+                }
+            ]
         },
         {
             "ID": 361,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "雲間を游ぐ",
+            "drive_id": "1BRXY8UecFltN8DSdixZE6sQ2rCs41qym",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 732,
+                    "mean_density": 6.548
+                }
+            ]
         },
         {
             "ID": 362,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Λkasha",
+            "drive_id": "1UkYmAz2g6UBkaj_GUmJOhcYfWIdOjGa5",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1102,
+                    "mean_density": 9.226
+                },
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 802,
+                    "mean_density": 6.712
+                }
+            ]
         },
         {
             "ID": 363,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Extreme End",
+            "drive_id": "1ScSBvg9w1oeK9HG_dlFL3EM7-YRmBTTR",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 946,
+                    "mean_density": 7.536
+                }
+            ]
         },
         {
             "ID": 364,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "超究極・傑ゼーレ 道中BGM",
+            "drive_id": "1afAZAy_nzI3fLjyLO04BuQRVKexZy3uw",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 773,
+                    "mean_density": 6.592
+                }
+            ]
         },
         {
             "ID": 365,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "超究極・傑ゼーレ ボス戦BGM",
+            "drive_id": "1UBOmj3tSGDhfL1SdlB6GZirm55XTq3Pc",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 859,
+                    "mean_density": 6.976
+                }
+            ]
         },
         {
             "ID": 366,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "Soulway",
+            "drive_id": "1wCTk0x_9oM2HCYOjc6kkY8UJer6rsLZN",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1174,
+                    "mean_density": 8.011
+                },
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 883,
+                    "mean_density": 6.023
+                }
+            ]
         },
         {
             "ID": 367,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "魔法式逃走奇譚☆ミ(裏)",
+            "drive_id": "10A2iz6HVlqCQonzPRWt0zj8AEb9okhYf",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 1155,
+                    "mean_density": 9.375
+                }
+            ]
         },
         {
             "ID": 368,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
+            "name": "沓の子を打つ",
+            "drive_id": "10eS3FWMEMUi93XkB7sv1xkbwY-MOz_eI",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 970,
+                    "mean_density": 7.872
+                }
+            ]
         },
         {
             "ID": 369,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 370,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 371,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 372,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 373,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 374,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 375,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 376,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 377,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 378,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 379,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 380,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 381,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 382,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 383,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 384,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 385,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 386,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 387,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 388,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 389,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 390,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 391,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 392,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 393,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 394,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 395,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 396,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 397,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 398,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 399,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 400,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 401,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 402,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 403,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 404,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 405,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 406,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 407,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 408,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 409,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 410,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 411,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 412,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 413,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 414,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 415,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 416,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 417,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 418,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 419,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 420,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 421,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 422,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 423,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 424,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 425,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 426,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 427,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 428,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 429,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 430,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 431,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 432,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 433,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 434,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 435,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 436,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 437,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 438,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 439,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 440,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 441,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 442,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 443,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 444,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 445,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 446,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 447,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 448,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 449,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 450,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 451,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 452,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 453,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 454,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 455,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 456,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 457,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 458,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 459,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 460,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 461,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 462,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 463,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 464,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 465,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 466,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 467,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 468,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 469,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 470,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 471,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 472,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 473,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 474,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 475,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 476,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 477,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 478,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 479,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 480,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 481,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 482,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 483,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 484,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 485,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 486,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 487,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 488,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 489,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 490,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 491,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 492,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 493,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 494,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 495,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 496,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 497,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 498,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 499,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 500,
-            "name": "",
-            "drive_id": "",
-            "score_info": []
-        },
-        {
-            "ID": 501,
             "name": "Shadow Fairies",
             "drive_id": "1TgL2KNHBjYGXNDfuhS9M1214OJXJwGli",
             "score_info": [
@@ -5350,7 +5485,7 @@
             ]
         },
         {
-            "ID": 502,
+            "ID": 370,
             "name": "チューリングの跡",
             "drive_id": "1gpuyxcfqup2HB-AjUiG_DmRHuvsceJ_e",
             "score_info": [
@@ -5369,7 +5504,7 @@
             ]
         },
         {
-            "ID": 503,
+            "ID": 371,
             "name": "祝福の色彩は想い結ぶ君たち迄",
             "drive_id": "1bynRBT3oKJIXCCw1M7ul_B7mLY9lGX48",
             "score_info": [
@@ -5388,7 +5523,57 @@
             ]
         },
         {
-            "ID": 504,
+            "ID": 372,
+            "name": "エメラルドver. 十段",
+            "drive_id": "1XiGhbBv_Jn5trcUfaEOp3JeV8_kplQE1",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 373,
+            "name": "エメラルドver. 玄人",
+            "drive_id": "1ePzMPT_NArLymU-iHdZXS1htu324DFqB",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 374,
+            "name": "エメラルドver. 名人",
+            "drive_id": "1uoL7FQHFPZX-Vm_sCCWy1CobopZ4dyil",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 375,
+            "name": "エメラルドver. 超人",
+            "drive_id": "134E5iMg0IxcOPSPxOaF8ftfvovDNZuXl",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 376,
+            "name": "エメラルドver. 達人",
+            "drive_id": "1N7JYqEWZRBVWTByN1wdRtV5H_WnoIRHP",
+            "danni_order": 14,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 377,
             "name": "スリケンランナー(裏)",
             "drive_id": "1uH_x6OJJoMdO8dTl5ZFPv9qpXPNaz0cG",
             "score_info": [
@@ -5401,7 +5586,7 @@
             ]
         },
         {
-            "ID": 505,
+            "ID": 378,
             "name": "少年は空を辿る",
             "drive_id": "1M0epQu_K3-LLvmQ8eJ-Zf0baMSvnPWBA",
             "score_info": [
@@ -5414,7 +5599,7 @@
             ]
         },
         {
-            "ID": 506,
+            "ID": 379,
             "name": "灰かぶり姫は舞踏会の夢を見る",
             "drive_id": "1P7ylW1vtA9W2nZvU4-Da54KAWpBszP7h",
             "score_info": [
@@ -5428,8 +5613,8 @@
         }
     ],
     "Information": {
-        "max_folder_ID": 34,
-        "max_item_ID": 506,
+        "max_folder_ID": 44,
+        "max_item_ID": 379,
         "course_name": [
             "かんたん",
             "ふつう",
