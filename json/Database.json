@@ -277,6 +277,7 @@
                 137,
                 29,
                 301,
+                380,
                 30,
                 192,
                 250,
@@ -868,7 +869,7 @@
                 132,
                 130,
                 131
-			],
+            ],
             "kind": "score",
             "remarks": []
         },
@@ -878,11 +879,11 @@
             "parent_folder": 3,
             "child_folder": [],
             "child_item": [
-			    269,
+                269,
                 322,
                 323,
                 268
-			],
+            ],
             "kind": "score",
             "remarks": []
         }
@@ -5609,11 +5610,24 @@
                     "mean_density": 7.903
                 }
             ]
+        },
+        {
+            "ID": 380,
+            "name": "Breakcore WTF!?",
+            "drive_id": "1IiXgAAVvFxym0LZN2p0pGa51KjHf0ABp",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1057,
+                    "mean_density": 8.325
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 44,
-        "max_item_ID": 379,
+        "max_item_ID": 380,
         "course_name": [
             "かんたん",
             "ふつう",
