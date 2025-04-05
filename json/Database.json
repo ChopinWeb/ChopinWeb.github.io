@@ -196,6 +196,7 @@
                 213,
                 41,
                 234,
+                381,
                 264,
                 203,
                 37,
@@ -5623,11 +5624,24 @@
                     "mean_density": 8.325
                 }
             ]
+        },
+        {
+            "ID": 381,
+            "name": "インフェルノシティ",
+            "drive_id": "1S2cd_mvfaQ6p8jXZmxfZcEgGpsnbZ0qG",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1037,
+                    "mean_density": 8.849
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 44,
-        "max_item_ID": 380,
+        "max_item_ID": 381,
         "course_name": [
             "かんたん",
             "ふつう",
