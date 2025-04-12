@@ -265,7 +265,8 @@
                 95,
                 69,
                 39,
-                52
+                52,
+                383
             ],
             "kind": "score",
             "remarks": []
@@ -5651,11 +5652,24 @@
                     "mean_density": 7.823
                 }
             ]
+        },
+        {
+            "ID": 383,
+            "name": "雲海都市",
+            "drive_id": "1RYX2F6GbMB2R0Weh8za7RmIxa88xMD23",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 805,
+                    "mean_density": 6.931
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 44,
-        "max_item_ID": 382,
+        "max_item_ID": 383,
         "course_name": [
             "かんたん",
             "ふつう",
