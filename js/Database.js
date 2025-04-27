@@ -65,6 +65,10 @@ function makeElements(data) {
 	if (item_str != null) item = parseInt(item_str);
 	//console.log(folder, item);
 	
+	//タイトルを変更
+	if (item_str == null && folder != 0) document.title += "（" + data["Folder"][folder].name + "）"; //フォルダ参照の場合
+	else if (item_str != null) document.title += "（" + data["Item"][item].name + "）"; //アイテム参照の場合
+	
 	//ファイルパスを形成
 	file_path = document.getElementById("file_path");
 	let parent_folder_list = [];
