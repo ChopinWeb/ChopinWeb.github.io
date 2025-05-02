@@ -26,17 +26,74 @@
       <main>
         <div class="page_title">譜面制作用ツール</div>
 		<div class="paragraph_title">加減速ソフラン生成機</div>
+		<p>小節途中から始まる、または小節途中から終わる際のソフランギミック前後の'0'は自動補完は今のところ未実装です。お手数ですが各自で補完をお願いします。</p>
+		<p>その他、譜面内容を繰り返しではなくカスタムに設定する等の追加機能も併せて今後実装するかもしれないです。</p>
 	    <div class="mini_title">入力</div><br>
-		<label>開始スクロール速度　　　　　　：<input type="text" id="StartScrl"></label><br><br>
-		<label>終了スクロール速度　　　　　　：<input type="text" id="EndScrl"></label><br><br>
-		<label>分割数　　　　　　　　　　　　：<input type="text" id="DivNum"></label><br><br>
-		<label>同スクロール速度内の譜面内容　：<input type="text" id="UnitContent"><br>
-		  　例．ドンが1つずつ加速するものを作りたいなら"1"<br>
-		  　　　小節線が1つずつ加速するものを作りたいなら","
-		</label><br><br>
-		<label>小節辺りのスクロール速度変化数：<input type="text" id="MeasureLen"><br>
-		  　「同スクロール速度内の譜面内容」に","が含まれる場合は入力不要
-		</label><br><br>
+		<!--<label class="soflan_gimmick_input">開始スクロール速度　　　　　　：<input type="text" id="StartScrl" value="2"></label><br><br>
+		<label class="soflan_gimmick_input">終了スクロール速度　　　　　　：<input type="text" id="EndScrl" value="0.5"></label><br><br>
+		<label class="soflan_gimmick_input">分割数　　　　　　　　　　　　：<input type="text" id="DivNum" value="28"></label><br><br>
+		<label class="soflan_gimmick_input">同スクロール速度内の譜面内容　：<input type="text" id="UnitContent" value="1"></label>-->
+		<label class="soflan_gimmick_input">開始スクロール速度　　　　　　：<input type="text" id="StartScrl"></label><br><br>
+		<label class="soflan_gimmick_input">終了スクロール速度　　　　　　：<input type="text" id="EndScrl"></label><br><br>
+		<label class="soflan_gimmick_input">分割数　　　　　　　　　　　　：<input type="text" id="DivNum"></label><br><br>
+		<label class="soflan_gimmick_input">同スクロール速度内の譜面内容　：<input type="text" id="UnitContent"></label>
+		<details>
+		  <summary>説明（クリックで開く）</summary>
+		  <p><ul class="soflan_gimmick_input">
+		    <li>例1．ドンが1つずつ加速するものを作りたいなら"1"</li>
+		    <li>例2．小節線が1つずつ加速するものを作りたいなら","</li>
+		  </ul></p>
+		</details><br>
+		<!--<label class="soflan_gimmick_input">小節辺りのスクロール速度変化数：<input type="text" id="MeasureLen" value="16"></label>!-->
+		<label class="soflan_gimmick_input">小節辺りのスクロール速度変化数：<input type="text" id="MeasureLen"></label>
+		<details>
+		  <summary>説明（クリックで開く）</summary>
+		  <p><ul class="soflan_gimmick_input">
+		    <li>「同スクロール速度内の譜面内容」に","が含まれる場合は入力不要</li>
+		  </ul></p>
+		</details><br>
+		<!--<label class="soflan_gimmick_input">小節先頭に対するオフセット　　：<input type="text" id="MeasureOffset" value="4"></label>!-->
+		<label class="soflan_gimmick_input">小節先頭に対するオフセット　　：<input type="text" id="MeasureOffset"></label>
+		<details>
+		  <summary>説明（クリックで開く）</summary>
+		  <p><ul class="soflan_gimmick_input">
+		    <li>小節先頭から見たときのギミック配置開始位置のオフセットを、「同スクロール速度内の譜面内容」の個数で指定</li>
+		    <li>小節先頭より前であれば負の値、後であれば正の値を入力</li>
+		    <li>小節先頭と同じタイミングで始める場合は"0"を入力</li>
+		    <li>「同スクロール速度内の譜面内容」に","が含まれる場合は入力不要</li>
+		    </ul></p>
+		</details><br>
+		
+		<div class="mini_title">入力例</div><br>
+		<details>
+		  <summary>クリックして開く</summary>
+		  <p>
+			<p style="font-size: 20px;">例1．</p>
+		    <div class="soflan_gimmick_explain">
+			  <img src="./img/soflan_gimmick_explain_1.png">
+			  <ul>
+			    <li>開始スクロール速度： 1</li>
+			    <li>終了スクロール速度： 4</li>
+				<li>分割数： 14</li>
+				<li>同スクロール速度内の譜面内容： 508000</li>
+				<li>小節辺りのスクロール速度変化数： 8</li>
+				<li>小節先頭に対するオフセット： -2</li>
+			  </ul>
+			</div>
+			<p style="font-size: 20px;">例2．</p>
+		    <div class="soflan_gimmick_explain">
+			  <img src="./img/soflan_gimmick_explain_2.png">
+			  <ul>
+			    <li>開始スクロール速度： 2</li>
+			    <li>終了スクロール速度： 0.5</li>
+				<li>分割数： 28</li>
+				<li>同スクロール速度内の譜面内容： 1</li>
+				<li>小節辺りのスクロール速度変化数： 16</li>
+				<li>小節先頭に対するオフセット： 4</li>
+			  </ul>
+			</div>
+		  </p>
+		</details><br>
 		
         <input type="button" align="center" value="生成する" id="geneButton" class="execButton"><br><br>
      
