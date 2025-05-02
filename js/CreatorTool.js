@@ -15,15 +15,16 @@ const Generater = {
 	DivNum: 0, //分割数
 	UnitContent: "", //同スクロール速度内の譜面内容
 	MeasureLen: 0, //小節辺りのスクロール速度変化数
+	MeasureOffset: 0, //小節先頭に対するオフセット
 	ResultValue: "", //生成結果
 	ErrorCode: [], /*エラーコード（正常だと空配列）
 		0：開始スクロール速度がおかしい
-		1:終了スクロール速度がおかしい
-		2:両端スクロール速度が同じ
+		1：終了スクロール速度がおかしい
+		2：両端スクロール速度が同じ
 		3：分割数がおかしい
-		4:同スクロール速度内の譜面内容がおかしい
-		5：小節辺りのスクロール速度変化数が入力されている
-		6:小節辺りのスクロール速度変化数がおかしい
+		4：同スクロール速度内の譜面内容がおかしい
+		5：小節辺りのスクロール速度変化数がおかしい
+		6：小節先頭に対するオフセットがおかしい
 		*/
 	
 	//テキストボックスの情報を取得
@@ -48,14 +49,18 @@ const Generater = {
 		if (this.UnitContent == "") this.ErrorCode.push(4);
 	
 		this.MeasureLen = parseInt(MeasureLenElement.value); //小節辺りのスクロール速度変化数を取得
-		console.log(this.UnitContent, this.MeasureLen);
-		if (this.UnitContent.includes(",") && MeasureLenElement.value!="") this.ErrorCode.push(5); //必要ない状況で入力されていればエラーコードを格納
-		else if (!this.UnitContent.includes(",")){ //必要ある状況で自然数が入力されていなければエラーコードを格納
-			if (isNaN(this.MeasureLen) || this.MeasureLen.toString()!=MeasureLenElement.value) this.ErrorCode.push(6);
-			else if (this.MeasureLen < 1) this.ErrorCode.push(6);
+		if (!this.UnitContent.includes(",")){ //必要ある状況で自然数が入力されていなければエラーコードを格納
+			if (isNaN(this.MeasureLen) || this.MeasureLen.toString()!=MeasureLenElement.value) this.ErrorCode.push(5);
+			else if (this.MeasureLen < 1) this.ErrorCode.push(5);
 		}
-		if (this.MeasureLen == "") this.MeasureLen = 1;
+		if (this.MeasureLen == "" || this.UnitContent.includes(",")) this.MeasureLen = 1;
 		
+
+		this.MeasureOffset = parseInt(MeasureOffsetElement.value); //小節に対するオフセットを取得
+		if (!this.UnitContent.includes(",")){ //必要ある状況で整数が入力されていなければエラーコードを格納
+			if (isNaN(this.MeasureOffset) || this.MeasureOffset.toString()!=MeasureOffsetElement.value) this.ErrorCode.push(6);
+		}
+		if (this.MeasureOffset == "" || this.UnitContent.includes(",")) this.MeasureOffset = 0;
 	},
 	
 	//TJAコードを生成
@@ -66,7 +71,7 @@ const Generater = {
 			let ScrlSpeedRounded = ScrlSpeed.toFixed(3).replace(/(\.\d*?)0+$/, '$1'); //小数第3位まで表示
 			ScrlSpeedRounded = ScrlSpeedRounded.replace(/\.$/, '');
 			this.ResultValue += "#SCROLL " + ScrlSpeedRounded + "\n" + this.UnitContent;
-			if (!this.UnitContent.includes(",") && (i+1)%this.MeasureLen == 0) this.ResultValue += ",\n"; //小節内の最後の場合、,を追加
+			if (!this.UnitContent.includes(",") && (i+1+this.MeasureOffset+this.MeasureLen)%this.MeasureLen == 0) this.ResultValue += ",\n"; //小節内の最後の場合、,を追加
 			else this.ResultValue += "\n"; //そうでない場合は改行だけ
 		}
 	},
@@ -80,8 +85,8 @@ const Generater = {
 			2: "開始・終了スクロール速度は異なる値を入力してください。",
 			3: "分割数は2以上の整数を入力してください。",
 			4:　"同スクロール速度内の譜面内容が入力されていません。",
-			5:　"同スクロール速度内の譜面内容に\",\"がある場合、小節辺りのスクロール速度変化数の入力は不要です。",
-			6: "小節辺りのスクロール速度変化数には自然数を入力してください。"
+			5: "小節辺りのスクロール速度変化数には自然数を入力してください。",
+			6:　"小節先頭に対するオフセットには整数を入力してください。"
 		}
 		for (let i=0; i<this.ErrorCode.length; i++) ErrorValue += (ErrorSentence[this.ErrorCode[i]] + "\n"); //エラー内容を追加
 		return ErrorValue;
@@ -126,6 +131,7 @@ let EndScrlElement = document.getElementById("EndScrl");
 let DivNumElement = document.getElementById("DivNum");
 let UnitContentElement = document.getElementById("UnitContent");
 let MeasureLenElement = document.getElementById("MeasureLen");
+let MeasureOffsetElement = document.getElementById("MeasureOffset");
 let ResultElement = document.getElementById("Result");
 let ErrorElement = document.getElementById("Error");
 let geneButton = document.getElementById("geneButton");
