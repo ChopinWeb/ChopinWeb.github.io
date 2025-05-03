@@ -15,6 +15,9 @@ main {
     line-height: 2;
 }
 
+img {
+	max-width: 100%;
+}
 
 /* ヘッダー */
 .header_container {
@@ -61,6 +64,20 @@ main {
         margin-left: 20px;
         margin-right: 20px;
     }
+	
+	.soflan_gimmick_explain {
+		display: flex;
+		justify-content: center;
+	}
+
+	.soflan_gimmick_explain img {
+		width: 700px;
+		max-width: 50%;
+	}
+
+	.soflan_gimmick_explain ul {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 721px) { /* スマホサイズ（ヘッダーリンクが潰れる横幅） */
@@ -104,6 +121,14 @@ main {
         line-height: 3;
         font-weight: bold;
     }
+
+	.soflan_gimmick_explain {
+		flex-direction: column;
+	}
+
+	.soflan_gimmick_explain img {
+		width: 100%;
+	}
 }
 
     /* ヘッダー中のメニューボタン */
@@ -293,4 +318,19 @@ main {
     width: 100%;
     height: 16em;
     background-color: white;
+}
+
+/* 加減速ソフラン生成機 */
+.soflan_gimmick_input ul {
+	padding-left: 40px;
+}
+
+.soflan_gimmick_input li {
+	margin-bottom: 12px;
+	line-height: 1.5;
+}
+
+.soflan_gimmick_explain img {
+	width: 700px;
+	border-radius: 8px;
 }
