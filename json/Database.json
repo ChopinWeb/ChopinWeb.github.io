@@ -154,6 +154,7 @@
                 10,
                 255,
                 378,
+                388,
                 13,
                 77,
                 110,
@@ -5728,11 +5729,24 @@
                     "mean_density": 7.334
                 }
             ]
+        },
+        {
+            "ID": 388,
+            "name": "恐怖で支配する教団「幽世」",
+            "drive_id": "1aOHhFilAvvgRBHvetHLsMTQXYBnm1pvr",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 10,
+                    "combo": 1051,
+                    "mean_density": 6.267
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 44,
-        "max_item_ID": 387,
+        "max_item_ID": 388,
         "course_name": [
             "かんたん",
             "ふつう",
