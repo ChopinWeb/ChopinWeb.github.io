@@ -47,7 +47,8 @@
                 30,
                 32,
                 34,
-                39
+                39,
+                45
             ],
             "remarks": [
                 "譜面ファイルとスキンファイルの2つに分かれているので、それらの中身を1つの同じフォルダに入れてご利用ください。"
@@ -895,6 +896,24 @@
                 268
             ],
             "kind": "score",
+            "remarks": []
+        },
+        {
+            "ID": 45,
+            "name": "0.8倍速段位",
+            "parent_folder": 2,
+            "child_folder": [
+                46
+            ],
+            "remarks": []
+        },
+        {
+            "ID": 46,
+            "name": "0.8倍速段位ver.1",
+            "parent_folder": 45,
+            "child_folder": [],
+            "child_item": [],
+            "kind": "danni",
             "remarks": []
         }
     ],
@@ -5759,7 +5778,7 @@
         }
     ],
     "Information": {
-        "max_folder_ID": 44,
+        "max_folder_ID": 46,
         "max_item_ID": 389,
         "course_name": [
             "かんたん",
