@@ -912,7 +912,21 @@
             "name": "0.8倍速段位ver.1",
             "parent_folder": 45,
             "child_folder": [],
-            "child_item": [],
+            "child_item": [
+                390,
+                391,
+                392,
+                393,
+                394,
+                395,
+                396,
+                397,
+                398,
+                399,
+                400,
+                401,
+                402
+            ],
             "kind": "danni",
             "remarks": []
         }
@@ -5775,11 +5789,141 @@
                     "mean_density": 6.4
                 }
             ]
+        },
+        {
+            "ID": 390,
+            "name": "0.8倍速段位 初段",
+            "drive_id": "1t5I6sU96z5siehEk3pZodbVHzScdBUqW",
+            "danni_order": 1,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 391,
+            "name": "0.8倍速段位 二段",
+            "drive_id": "1Lc_FxQnZ3whtvWvAKGKhsJqnHpRtA7CA",
+            "danni_order": 2,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 392,
+            "name": "0.8倍速段位 三段",
+            "drive_id": "1ccaiPcyZyP_3E1Ip_R9yg1_yOHhAbk3p",
+            "danni_order": 3,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 393,
+            "name": "0.8倍速段位 四段",
+            "drive_id": "1xzN97cWJXw47iNFQVo5K-6djA29KmDft",
+            "danni_order": 4,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 394,
+            "name": "0.8倍速段位 五段",
+            "drive_id": "1m3QGvOoAiawJ3MQiC4joCbWQIOU4O8DO",
+            "danni_order": 5,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 395,
+            "name": "0.8倍速段位 六段",
+            "drive_id": "1tYBYN5GCvs2E02u9H2glYWkMfmtihy3E",
+            "danni_order": 6,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 396,
+            "name": "0.8倍速段位 七段",
+            "drive_id": "10h12cxOXyfq9H0LNVOPpFDTLmZSmaIvL",
+            "danni_order": 7,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 397,
+            "name": "0.8倍速段位 八段",
+            "drive_id": "1_m-tBTMzRE9Mg6AZyEiPaXiEM0zO1rKv",
+            "danni_order": 8,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 398,
+            "name": "0.8倍速段位 九段",
+            "drive_id": "10VllLwnUazEn3GN999LRs_GNRkV4B8fL",
+            "danni_order": 9,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 399,
+            "name": "0.8倍速段位 十段",
+            "drive_id": "1XJzb7RYR_FLucbJydM37f1TTXiuqOwVE",
+            "danni_order": 10,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 400,
+            "name": "0.8倍速段位 玄人",
+            "drive_id": "11bnIFlZSqkao15j_UGk_Nx-qMHzflfIW",
+            "danni_order": 11,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 401,
+            "name": "0.8倍速段位 名人",
+            "drive_id": "1ZrubP15UJUk0WoRzziDx2dRV_Cg-TpL4",
+            "danni_order": 12,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
+        },
+        {
+            "ID": 402,
+            "name": "0.8倍速段位 超人",
+            "drive_id": "1a52mLKao_LeXjExXduRpHCrUXTXjpBcz",
+            "danni_order": 13,
+            "danni_info": {
+                "score": [],
+                "condition": []
+            }
         }
     ],
     "Information": {
         "max_folder_ID": 46,
-        "max_item_ID": 389,
+        "max_item_ID": 402,
         "course_name": [
             "かんたん",
             "ふつう",
