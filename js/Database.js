@@ -152,7 +152,7 @@ function makeElements(data) {
 		addDownloadBtn(file_name, download_URL, btn_name, btn_text);
 		if (data["Folder"][folder]["kind"]=="danni"){ //段位の場合、スキンもダウンロード
 			file_name = "skin.zip";
-			download_URL = "https://ChopinServer.github.io/danni_skin/skin_" + (data["Folder"][folder]["danni_order"]<10 ? "0" : "") + String(data["Item"][item]["danni_order"]) + ".zip";
+			download_URL = "https://ChopinServer.github.io/danni_skin/skin_" + String(data["Item"][item]["danni_order"]).padStart(2, '0') + ".zip";
 			btn_name = "skin_download_btn";
 			btn_text = "ダウンロード（スキン）";
 			addDownloadBtn(file_name, download_URL, btn_name, btn_text);
