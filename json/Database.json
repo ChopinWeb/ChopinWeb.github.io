@@ -126,6 +126,7 @@
                 98,
                 370,
                 179,
+                420,
                 135,
                 106,
                 299,
@@ -6159,11 +6160,24 @@
                     "mean_density": 4.04
                 }
             ]
+        },
+        {
+            "ID": 420,
+            "name": "リミックス6（みんなのリズム天国）",
+            "drive_id": "13iX3OzcVa1TN833E_jTCPCjOCqAz4wwk",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 613,
+                    "mean_density": 5.714
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 419,
+        "max_item_ID": 420,
         "course_name": [
             "かんたん",
             "ふつう",
