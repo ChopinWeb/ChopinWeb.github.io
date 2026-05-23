@@ -127,6 +127,7 @@
                 370,
                 179,
                 420,
+                421,
                 135,
                 106,
                 299,
@@ -6173,11 +6174,24 @@
                     "mean_density": 5.714
                 }
             ]
+        },
+        {
+            "ID": 421,
+            "name": "リミックス7（みんなのリズム天国）",
+            "drive_id": "1Qk3QU2MQxqwxmgb35F2kAgr_p_SvJtF9",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 669,
+                    "mean_density": 6.115
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 420,
+        "max_item_ID": 421,
         "course_name": [
             "かんたん",
             "ふつう",
