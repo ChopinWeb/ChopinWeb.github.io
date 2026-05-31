@@ -98,6 +98,7 @@
                 404,
                 189,
                 366,
+                423,
                 203,
                 155,
                 299
@@ -125,6 +126,7 @@
                 72,
                 143,
                 98,
+                423,
                 370,
                 179,
                 420,
@@ -6201,11 +6203,30 @@
                     "mean_density": 4.914
                 }
             ]
+        },
+        {
+            "ID": 423,
+            "name": "やがて女はきれいになるだろう",
+            "drive_id": "1puogcR5G2ZZQ1JE5RgksOpgdGYWKw0kp",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 9,
+                    "combo": 578,
+                    "mean_density": 5.412
+                },
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 503,
+                    "mean_density": 4.739
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 422,
+        "max_item_ID": 423,
         "course_name": [
             "かんたん",
             "ふつう",
