@@ -520,6 +520,7 @@
                 307,
                 266,
                 316,
+                425,
                 75,
                 208
             ],
@@ -6236,11 +6237,17 @@
                     "mean_density": 4.029
                 }
             ]
+        },
+        {
+            "ID": 425,
+            "name": "ケロケロロケット2 ゲーム譜面",
+            "drive_id": "1rQt7PGryfkPouZINfZx9gSQFBtpN4h5O",
+            "tool_info": ""
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 424,
+        "max_item_ID": 425,
         "course_name": [
             "かんたん",
             "ふつう",
