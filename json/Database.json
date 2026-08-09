@@ -118,6 +118,7 @@
                 363,
                 324,
                 422,
+                426,
                 232,
                 200,
                 54,
@@ -6243,11 +6244,24 @@
             "name": "ケロケロロケット2 ゲーム譜面",
             "drive_id": "1rQt7PGryfkPouZINfZx9gSQFBtpN4h5O",
             "tool_info": ""
+        },
+        {
+            "ID": 426,
+            "name": "Love me forever!",
+            "drive_id": "1CNwS-Epx4LFsKLAkXoFBsCw1q5VQk9-n",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 594,
+                    "mean_density": 5.678
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 425,
+        "max_item_ID": 426,
         "course_name": [
             "かんたん",
             "ふつう",
