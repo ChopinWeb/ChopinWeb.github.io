@@ -80,7 +80,8 @@
             "parent_folder": 1,
             "child_folder": [],
             "child_item": [
-                369
+                369,
+                427
             ],
             "kind": "score",
             "remarks": []
@@ -131,6 +132,7 @@
                 423,
                 370,
                 179,
+                427,
                 420,
                 421,
                 135,
@@ -6257,11 +6259,30 @@
                     "mean_density": 5.678
                 }
             ]
+        },
+        {
+            "ID": 427,
+            "name": "リミックス14（リズム天国ミラクルスターズ）",
+            "drive_id": "1PiI3HI7g_OvKPCterYH66BeUPPM4PGT8",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 7,
+                    "combo": 387,
+                    "mean_density": 3.696
+                },
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 594,
+                    "mean_density": 5.678
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 426,
+        "max_item_ID": 427,
         "course_name": [
             "かんたん",
             "ふつう",
