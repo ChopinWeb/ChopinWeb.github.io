@@ -102,6 +102,7 @@
                 423,
                 203,
                 155,
+                429,
                 299
             ],
             "kind": "score",
@@ -216,6 +217,7 @@
                 37,
                 181,
                 136,
+                429,
                 88,
                 204,
                 28,
@@ -6292,11 +6294,30 @@
                     "mean_density": 6.75
                 }
             ]
+        },
+        {
+            "ID": 429,
+            "name": "リミックス12（リズム天国ミラクルスターズ）",
+            "drive_id": "1yvZvlszf6k1j5MIsM75F3ARv97Fm9hs6",
+            "score_info": [
+                {
+                    "course": 4,
+                    "star": 10,
+                    "combo": 787,
+                    "mean_density": 6.62
+                },
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 617,
+                    "mean_density": 5.178
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 428,
+        "max_item_ID": 429,
         "course_name": [
             "かんたん",
             "ふつう",
