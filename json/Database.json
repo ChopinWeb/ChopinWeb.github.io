@@ -103,7 +103,8 @@
                 203,
                 155,
                 429,
-                299
+                299,
+                435
             ],
             "kind": "score",
             "remarks": []
@@ -6376,11 +6377,24 @@
                     "mean_density": 6.552
                 }
             ]
+        },
+        {
+            "ID": 435,
+            "name": "終わりなきパーフェクト",
+            "drive_id": "1oRf7LjQvSMufs7P84pfr0GhYAKO6I8HY",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 8,
+                    "combo": 668,
+                    "mean_density": 5.98
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 434,
+        "max_item_ID": 435,
         "course_name": [
             "かんたん",
             "ふつう",
