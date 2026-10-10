@@ -141,6 +141,7 @@
                 431,
                 420,
                 421,
+                436,
                 135,
                 106,
                 299,
@@ -6390,11 +6391,24 @@
                     "mean_density": 5.98
                 }
             ]
+        },
+        {
+            "ID": 436,
+            "name": "リミックス9（リズム天国ミラクルスターズ）",
+            "drive_id": "1XyOG_r1oZSdEVqEGo1EIZFSYdmYAKcSW",
+            "score_info": [
+                {
+                    "course": 3,
+                    "star": 9,
+                    "combo": 765,
+                    "mean_density": 5.911
+                }
+            ]
         }
     ],
     "Information": {
         "max_folder_ID": 47,
-        "max_item_ID": 435,
+        "max_item_ID": 436,
         "course_name": [
             "かんたん",
             "ふつう",
